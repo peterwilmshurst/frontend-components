@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="banner">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence">
+                </div>
+                <div class="col-md-10">
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="container-fluid">
+            <!-- full width banner -->
+            <div class="fwb">
+                <div class="wrapper custom-img-1" style="background-position: center center;">
+                    <div class="container">
+                        <!-- add content area component -->
+                        <div class="content-area">
+                            <div class="left-33">
+                                <!-- text block component -->
+                                <div class="text-block white-bg fade-75">
+                                    <h3>You&apos;re not Alone</h3>
+                                    <p>We get it. Any level of incontinence can be frustrating. We&apos;re here to
+                                        offer
+                                        support and resources
+                                        to help you get back to doing the things you love most.</p>
+                                    <!-- button component -->
+                                    <a href="#" target="_blank" class="btn btn-primary" role="button">Call to
+                                        action</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /full width banner -->
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="text">
+                        <h1>Banner</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat accusantium corporis nemo
+                            natus officiis, molestias suscipit consequuntur consectetur illum adipisci, excepturi
+                            mollitia doloremque nesciunt dolores maxime pariatur inventore minus! Accusamus!</p>
+
+                        <p><a href="banner-examples.html">View all</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Code Snippet</h2>
+
+            <section class="code-clipboard">
+
+                <pre>
+    <code class="language-html">
+ 
+&lt;div class="fwb">
+&lt;div class="wrapper <kbd>custom-img-1</kbd>" style="background-position: center center;">
+  &lt;div class="container">
+    &lt;div class="content-area">
+      &lt;div class="<kbd>left-33</kbd>">
+        &lt;div class="text-block <kbd>white-bg</kbd> <kbd>fade-75</kbd>">
+          &lt;h3>You&apos;re not Alone&lt;/h3>
+          &lt;p>We get it. Any level of incontinence can be frustrating. We&apos;re here to offer support and resources
+            to help you get back to doing the things you love most.&lt;/p>
+          &lt;a href="#" target="_blank" class="btn <kbd>btn-primary</kbd>" role="button">Call to action&lt;/a>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+&lt;/div>
+
+    </code>
+</pre>
+            </section>
+
+            <h2>Options</h2>
+            <h3>Image</h3>
+            <p>Images are added and saved as background images within the css. A desktop, tablet and mobile version of
+                each image should be provided. The css below will ensure the correct image is shown on the relevant
+                device. Retina versions of each image should also be provided, these will be displayed on higher
+                resolution displays.</p>
+
+            <section class="code-clipboard">
+                <pre>
+                        <code class="language-css">
+
+                .custom-img-1 {
+                    background-image: url('../img/banner/demo_banner-01-mobile.jpg');
+                    background-image: -webkit-image-set(url(../img/banner/demo_banner-01-mobile.jpg) 1x, url(../img/banner/demo_banner-01-mobile@2x.jpg) 2x);
+                
+                    @include media-breakpoint-up(sm) {
+                        background-image: url('../img/banner/demo_banner-01-tablet.jpg');
+                        background-image: -webkit-image-set(url(../img/banner/demo_banner-01-tablet.jpg) 1x, url(../img/banner/demo_banner-01-tablet@2x.jpg) 2x);
+                    }
+                
+                    @include media-breakpoint-up(md) {
+                        background-image: url('../img/banner/demo_banner-01-desktop.jpg');
+                        background-image: -webkit-image-set(url(../img/banner/demo_banner-01-desktop.jpg) 1x, url(../img/banner/demo_banner-01-desktop@2x.jpg) 2x);
+                    }
+                }
+
+</code></pre>
+            </section>
+            <h3>Position</h3>
+            <p>The textbox, if included, can be positioned by amending this class. The options are listed below. Simply
+                remove the content-area div if no text/content is needed.<br /><b>Please note:</b> By default, content
+                area will align vertically bottom on a mobile device unless the mobile-top class is used.</p>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Class</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">left-33</th>
+                        <td>33% width of parent container, left-hand side</td>
+                        <td><a href="./banner-examples.html#option-1" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">left-50</th>
+                        <td>50% width of parent container, left-hand side</td>
+                        <td><a href="./banner-examples.html#option-2" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">center-33</th>
+                        <td>33% width of parent container, center</td>
+                        <td><a href="./banner-examples.html#option-3" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">center-50</th>
+                        <td>50% width of parent container, center</td>
+                        <td><a href="./banner-examples.html#option-4" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">center-100</th>
+                        <td>100% width of parent container, center</td>
+                        <td><a href="./banner-examples.html#option-5" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">right-33</th>
+                        <td>33% width of parent container, right-hand side</td>
+                        <td><a href="./banner-examples.html#option-6" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">right-50</th>
+                        <td>50% width of parent container, right-hand side</td>
+                        <td><a href="./banner-examples.html#option-7" target="_blank">Link</a></td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Background Colour</h3>
+            <p>Options are listed below:</p>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Class</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">white-bg</th>
+                        <td>White background</td>
+                        <td><a href="./banner-examples.html#option-2" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">blue-bg</th>
+                        <td>Blue background</td>
+                        <td><a href="./banner-examples.html#option-3" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">blue-grad-bg</th>
+                        <td>Blue gradient background</td>
+                        <td><a href="./banner-examples.html#option-4" target="_blank">Link</a></td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <h3>Transparency</h3>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Class</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">fade-25</th>
+                        <td>25% transparent background</td>
+                        <td><a href="./banner-examples.html#option-5" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">fade-50</th>
+                        <td>50% transparent background</td>
+                        <td><a href="./banner-examples.html#option-4" target="_blank">Link</a></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">fade-75</th>
+                        <td>75% transparent background</td>
+                        <td><a href="./banner-examples.html#option-7" target="_blank">Link</a></td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <h3>Call to Action</h3>
+            <p>Text here ...</p>
+
+        </div>
+
+
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+    </script>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

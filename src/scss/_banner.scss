@@ -1,0 +1,396 @@
+/*
+           _ __               
+ _      __(_) /___ ___  ____ _
+| | /| / / / / __ `__ \/ __ `/
+| |/ |/ / / / / / / / / /_/ / 
+|__/|__/_/_/_/ /_/ /_/\__,_/  
+                              
+*/
+
+/* ==========================================================================
+RESET 
+========================================================================== */
+
+.container-fluid {
+    padding: 0;
+}
+
+/* ==========================================================================
+BANNERS
+========================================================================== */
+
+.fwb {
+    margin-bottom: 2.5rem;
+
+    .wrapper {
+        @extend .container-fluid;
+        background-size: cover;
+        height: 480px;
+
+        @include media-breakpoint-up(md) {
+            max-height: 687px;
+        }
+
+        .container {
+            display: flex;
+            height: 480px;
+
+            @include media-breakpoint-up(md) {
+                max-height: 687px;
+            }
+        }
+    }
+
+    /* Text block Component Rules (when inserted into a banner component) */
+
+    .content-area {
+
+        .left-33,
+        .left-50,
+        .right-33,
+        .right-50 {
+
+            .text-block {
+                text-align: center;
+
+                @include media-breakpoint-up(md) {
+                    text-align: left;
+
+                }
+            }
+
+            .center-33,
+            .center-50 {
+
+                .text-block {
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+}
+
+.custom-img-1 {
+    background-image: url('../img/banner/demo_banner-01-mobile.jpg');
+    background-image: -webkit-image-set(url(../img/banner/demo_banner-01-mobile.jpg) 1x, url(../img/banner/demo_banner-01-mobile@2x.jpg) 2x);
+
+    @include media-breakpoint-up(sm) {
+        background-image: url('../img/banner/demo_banner-01-tablet.jpg');
+        background-image: -webkit-image-set(url(../img/banner/demo_banner-01-tablet.jpg) 1x, url(../img/banner/demo_banner-01-tablet@2x.jpg) 2x);
+    }
+
+    @include media-breakpoint-up(md) {
+        background-image: url('../img/banner/demo_banner-01-desktop.jpg');
+        background-image: -webkit-image-set(url(../img/banner/demo_banner-01-desktop.jpg) 1x, url(../img/banner/demo_banner-01-desktop@2x.jpg) 2x);
+    }
+}
+
+.custom-img-2 {
+    background-image: url('../img/banner/demo_banner-02-mobile.jpg');
+    background-image: -webkit-image-set(url(../img/banner/demo_banner-02-mobile.jpg) 1x, url(../img/banner/demo_banner-02-mobile@2x.jpg) 2x);
+
+    @include media-breakpoint-up(sm) {
+        background-image: url('../img/banner/demo_banner-02-tablet.jpg');
+        background-image: -webkit-image-set(url(../img/banner/demo_banner-02-tablet.jpg) 1x, url(../img/banner/demo_banner-02-tablet@2x.jpg) 2x);
+    }
+
+    @include media-breakpoint-up(md) {
+        background-image: url('../img/banner/demo_banner-02-desktop.jpg');
+        background-image: -webkit-image-set(url(../img/banner/demo_banner-02-desktop.jpg) 1x, url(../img/banner/demo_banner-02-desktop@2x.jpg) 2x);
+    }
+}
+
+.custom-img-3 {
+    background-image: url('../img/banner/demo_banner-03-mobile.jpg');
+    background-image: -webkit-image-set(url(../img/banner/demo_banner-03-mobile.jpg) 1x, url(../img/banner/demo_banner-03-mobile@2x.jpg) 2x);
+
+    @include media-breakpoint-up(sm) {
+        background-image: url('../img/banner/demo_banner-03-tablet.jpg');
+        background-image: -webkit-image-set(url(../img/banner/demo_banner-03-tablet.jpg) 1x, url(../img/banner/demo_banner-03-tablet@2x.jpg) 2x);
+    }
+
+    @include media-breakpoint-up(md) {
+        background-image: url('../img/banner/demo_banner-03-desktop.jpg');
+        background-image: -webkit-image-set(url(../img/banner/demo_banner-03-desktop.jpg) 1x, url(../img/banner/demo_banner-03-desktop@2x.jpg) 2x);
+    }
+}
+
+.custom-img-4 {
+    background-image: url('../img/banner/demo_banner-04-mobile.jpg');
+    background-image: -webkit-image-set(url(../img/banner/demo_banner-04-mobile.jpg) 1x, url(../img/banner/demo_banner-04-mobile@2x.jpg) 2x);
+
+    @include media-breakpoint-up(sm) {
+        background-image: url('../img/banner/demo_banner-04-tablet.jpg');
+        background-image: -webkit-image-set(url(../img/banner/demo_banner-04-tablet.jpg) 1x, url(../img/banner/demo_banner-04-tablet@2x.jpg) 2x);
+    }
+
+    @include media-breakpoint-up(md) {
+        background-image: url('../img/banner/demo_banner-04-desktop.jpg');
+        background-image: -webkit-image-set(url(../img/banner/demo_banner-04-desktop.jpg) 1x, url(../img/banner/demo_banner-04-desktop@2x.jpg) 2x);
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+    /* IE10+ CSS styles go here */
+
+}
+
+/* ==========================================================================
+POSITION
+========================================================================== */
+
+/* Content Area */
+
+.content-area {
+    @extend .row;
+    align-items: flex-end;
+    flex: 1;
+
+    @include media-breakpoint-up(md) {
+        align-items: center;
+    }
+
+    .left-33,
+    .left-50,
+    .right-33,
+    .right-50,
+    .center-33,
+    .center-50,
+    .center-100 {
+        margin-bottom: 2rem;
+        z-index: 10;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 0;
+        }
+
+   
+            margin-bottom: 2rem;
+            z-index: 10;
+        }
+    
+
+    .left-33 {
+        @extend .col-md-6;
+        @extend .col-lg-4;
+    }
+
+    .left-50 {
+        @extend .col-md-6;
+    }
+
+    .center-33 {
+        @extend .col-md-4;
+        @extend .offset-md-4;
+    }
+
+    .center-50 {
+        @extend .col-md-6;
+        @extend .offset-md-3;
+    }
+
+    .center-100 {
+        @extend .col-md-8;
+        @extend .offset-md-2;
+    }
+
+    .right-33 {
+        @extend .col-md-6;
+        @extend .col-lg-4;
+        @extend .offset-md-6;
+        @extend .offset-lg-8;
+    }
+
+    .right-50 {
+        @extend .col-md-6;
+        @extend .offset-md-6;
+    }
+
+}
+
+/* Centered CTA's always appear at the bottom (vertically) and text center aligned. */
+.content-area {
+    &.bottom {
+        align-items: flex-end;
+        margin-bottom: 2rem;
+
+        &.center-33,
+        &.center-50 {
+            align-items: flex-end;
+        }
+    }
+}
+
+/* RULE: By default, content area will align vertically bottom on a mobile device unless the mobile-top class is used. Can this be a dialog option? */
+.content-area {
+    &.mobile-top {
+        align-items: flex-start;
+        margin-top: 2rem;
+
+        @include media-breakpoint-up(md) {
+            align-items: center;
+            margin-top: 0;
+        }
+    }
+}
+
+/* ==========================================================================
+TEXT BLOCK
+========================================================================== */
+
+.text-block {
+    padding: 2rem;
+    text-align: left;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+
+        &.no-bg {
+            padding: 0;
+        }
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    &.left {
+        text-align: left;
+    }
+
+    &.center {
+        text-align: center;
+    }
+
+    &.right {
+        text-align: right;
+    }
+
+    /* RULE: Text in a blue background will be white by default */
+
+    &.blue-bg, &.blue-grad-bg {
+
+        color: $white;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $white;
+        }
+    }
+}
+
+/* ==========================================================================
+UTILITIES
+========================================================================== */
+
+/* Backgrounds */
+
+/* Solid */
+
+.white-bg {
+    background: rgba(255, 255, 255, 1);
+
+    &.fade-25 {
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.25);
+    }
+
+    &.fade-50 {
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    &.fade-75 {
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.75);
+    }
+}
+
+.blue-bg {
+    background: rgba(0, 58, 93, 1);
+
+    &.fade-25 {
+        opacity: 1;
+        background: rgba(0, 58, 93, 0.25);
+    }
+
+    &.fade-50 {
+        opacity: 1;
+        background: rgba(0, 58, 93, 0.5);
+    }
+
+    &.fade-75 {
+        opacity: 1;
+        background: rgba(0, 58, 93, 0.75);
+    }
+}
+
+/* Gradients */
+
+.blue-grad-bg {
+    background: rgba(0, 58, 93, 1);
+    background: linear-gradient(to right, rgba(0, 58, 93, 1) 0%, rgba(0, 113, 206, 1) 100%);
+
+    &.fade-25 {
+        opacity: 1;
+        background: rgba(0, 58, 93, 0.25);
+        background: linear-gradient(to right, rgba(0, 58, 93, 0.25) 0%, rgba(0, 113, 206, 0.25) 100%);
+    }
+
+    &.fade-50 {
+        opacity: 1;
+        background: rgba(0, 58, 93, 0.5);
+        background: linear-gradient(to right, rgba(0, 58, 93, 0.5) 0%, rgba(0, 113, 206, 0.5) 100%);
+    }
+
+    &.fade-75 {
+        opacity: 1;
+        background: rgba(0, 58, 93, 0.75);
+        background: linear-gradient(to right, rgba(0, 58, 93, 0.75) 0%, rgba(0, 113, 206, 0.75) 100%);
+    }
+}
+
+/* Foregrounds */
+
+.white-fg {
+    color: $white;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $white;
+    }
+}
+
+/* RULE: White text with no background will always apply a drop shadow to the text. */
+
+.no-bg {
+    &.white-fg {
+        text-shadow: 1px 1px 3px rgba(51, 51, 51, 0.75);
+    }
+}
+
+.blue-fg {
+    color: $brand-primary-dark;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $brand-primary-dark;
+    }
+}

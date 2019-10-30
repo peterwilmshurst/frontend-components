@@ -12,115 +12,53 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     padding: 1.2rem 2.4rem;
-}
 
-h1 {
-    color: $green;
-    font-weight: 600;
-}
-h2 {
-    color: $green;
-    font-weight: 500;
-}
+    &.banner {
+        padding: 0;
+    }
 
-.navigation {
-    height: 100vh;
-}
-
-.content {
-    background-color: $white;
-    border-radius: .6rem;
-    box-shadow: 0 1.2rem 3.6rem rgba(0, 0, 0, .2);
-
-    .text {
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        padding-left: 4.8rem;
-        padding-right: 4rem;
+    &.banner-examples {
+        padding: 0;
+        .fwb { margin-bottom: 1rem;}
     }
 }
 
+h1,
+h2 {
+    color: $black;
+    font-weight: 600;
+}
+
+a {
+    color: $green;
+    text-decoration: underline;
+
+    &:hover {
+        color: $green;
+        text-decoration: none;
+    }
+}
+
+.code-clipboard {
+    background-color: rgba(97, 159, 66, 0.04);
+    padding: 1.2rem;
+    border-radius: .6rem;
+    display: flex;
+    justify-content: center;
+}
 
 header {
     padding: 0 0 1.2rem 0;
-
-    .row {
-        align-items: center;
-    }
 }
 
-.main-navigation {
-    float: right;
-    text-transform: uppercase;
-
-    ul {
-        margin: 0;
-        padding: 0;
-
-        li {
-            display: inline-block;
-
-            a {
-                padding: 0 1.6rem;
-                color: $black;
-            }
-        }
-
-    }
+.text {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    margin: 0 auto;
 }
-
-.sub-navigation {
-    padding-top: 1.2rem;
-
-    ul {
-        margin: 0;
-        padding: 0;
-
-        li {
-            list-style: none;
-
-            a {
-                display: flex;
-                padding: 1.2rem 0;
-                color: $black;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-            }
-
-            ul {
-                display: none;
-                visibility: hidden;
-
-                li {
-                    padding-left: 1.2rem;
-
-                    a {
-                        text-transform: none;
-                        padding: 0.6rem 0;
-                    }
-                }
-            }
-
-            &.active {
-                a {
-                    color: $green;
-                    font-weight: 700;
-                }
-
-                ul {
-                    display: block;
-                    visibility: visible;
-
-                    li {
-                        a {
-                            color: $black;
-                            font-weight: 300;
-                        }
-                    }
-
-                }
-            }
-
-        }
+.table {
+    th, td {
+        width: 33%;
+        text-align: center;
     }
 }

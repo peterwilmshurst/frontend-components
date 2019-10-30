@@ -18,71 +18,117 @@
                     <img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence">
                 </div>
                 <div class="col-md-10">
-                    <nav class="main-navigation">
-                        <ul>
-                            <li><a href="#">Layouts &amp; Architecture</a></li>
-                            <li><a href="#">Content &amp; Visuals</a></li>
-                            <li><a href="#">Components</a></li>
-                            <!-- <li><a href="#">Say Hello</a></li> -->
-                        </ul>
-                    </nav>
+
                 </div>
             </div>
         </div>
-
     </header>
 
-    <div class="container">
-        <div class="row">
-            <aside class="navigation col-md-3">
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="text">
+                        <h1>Deep in the mind of a wilderbeast</h1>
+                        <p>During the era of Print Design, companies would approach agencies for a brand identity
+                            system.
+                            The
+                            identity work started with a simple logo and colour scheme and then scaled to business
+                            cards,
+                            product
+                            packaging, vehicles and more. The sum of these components made up the physical brand.
 
-                <nav id="subNav" class="sub-navigation">
-                    <ul>
-                        <li><a class="active" href="#">Introduction</a></li>
-                        <li><a href="#">Banners</a>
-                            <ul>
-                                <li><a href="#banners-examples">Examples</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Breadcrumbs</a></li>
-                        <li><a href="#">Carousels</a>
-                            <ul>
-                                <li><a href="#carousels-in-the-wild">In the Wild</a></li>
-                                <li><a href="#carousels-hectic-background">Hectic Backgrounds</a></li>
-                                <li><a href="#carousels-light-background">Light Backgrounds</a></li>
-                                <li><a href="#carousels-dark-background">Dark Backgrounds</a></li>
-                                <li><a href="#carousels-forbidden">Forbidden</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Cards</a>
-                            <ul>
-                                <li><a href="#cards-introduction">Introduction</a></li>
-                                <li><a href="#cards-as-an-interactive-block">Card as an interactive block</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Buttons and Links</a></li>
-                        <li><a href="#">Lists</a></li>
-                        <li><a href="#">Tables</a></li>
-                        <li><a href="#">Forms</a></li>
-                        <li><a href="#">Video</a></li>
-                        <li><a href="#">Modals</a></li>
-                        <li><a href="#">Animation</a></li>
-                        <li><a href="#">Special Patterns</a></li>
-                    </ul>
-                </nav>
-            </aside>
-
-            <main class="content col-md-9">
-                <div class="text">
+                        </p>
+                        <p>Building
+                            webpages
+                            is not so different. The old PSD-to-HTML workflow served us well for many years, but
+                            isn’t able
+                            to stand
+                            in the face of all the complexity that responsive web design and the multi-device web
+                            have
+                            introduced.
+                            Internal processes have changed. Likewise, how we craft webpages and what we deliver to
+                            our
+                            clients must
+                            mature.</p>
 
 
-                    <h1>What are Components?</h1></div></main></div></div>
+                        <h2>Modules, not pages</h2>
+                        <p>
+                            The traditional way to handle complexity in programming is to break large complex things
+                            into smaller well-formed “modules”. Focusing on creating healthy front-end modules instead
+                            of complete
+                            pages can help break complex page layouts into reusable solutions. The <a
+                                href="#">homepage</a> of this website is a good example of this.
+                        </p>
+
+                        <p>From the exterior, it may appear to be a single page but the homepage is actually comprised
+                            of Lego®-like building blocks designed to be combined together. The look and feel of new
+                            components like form controls, navigation, and carousels are informed by the colours and
+                            type
+                            that define the brand.</p>
+
+                        <p>The highlight component, for example, can be re-purposed and “themed” in the news section
+                            using a simple CSS class. While they are different visually, they possess the same
+                            underlying code structure. All these components are then strung together to create complete
+                            page layouts.
+                        </p>
+                        <p>
+                            Working on isolated components made the iteration process faster as well. Faster and more
+                            reusable means that the work the Digital Center of Excellence [DCOE] performed resulted
+                            greater value for the company.
+                        </p>
+
+                        <h2>Core Library of Components</h2>
+                        <p>The current library of components are listed below. Each component links to a page with
+                            examples and more information. <b>Make this text sexier peter.</b></p>
+
+                        <ul>
+                            <li><a href="./banner.html">Banner</a></li>
+                            <li><a href="./carousel.html">Carousel</a></li>
+                            <li><a href="./card.html">Card</a></li>
+
+                        </ul>
+
+                        <ul>
+                            <li><a href="./breadcrumbs.html">Breadcrumbs</a></li>
+                            <li><a href="./buttons.html">Buttons</a></li>
+                        </ul>
+
+                        <ul>
+                            <li>Header</li>
+                            <li>Footer</li>
+                        </ul>
+
+                        <h2>On Code</h2>
+                        <p>Whether it’s CSS for a single component or an entire site, I finish in a mobile-first fashion
+                            by using min-width media queries to set the smallest view and move outward from there.
+                            However, I start much differently. I begin with wide views because the layout is usually
+                            more complex. I find it easier to ensure columns and spacing are set wide and work my way
+                            down to a single column.</p>
+
+                        <p>All my values are relative (em, rem, etc.) and based on the 100% 16px base, so I can move
+                            code around without losing proportion. As I continue to fidget with various layouts, I
+                            shuffle code for larger views down into alternate media queries as needed. I’m not saying
+                            this is the most efficient practice, but at the end of a project this somehow helps me feel
+                            like every view has been well considered, which is most important to me.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+    </script>
+
     <script src="js/main.min.js"></script>
 </body>
 
