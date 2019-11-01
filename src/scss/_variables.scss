@@ -7,27 +7,47 @@
                               
 */
 
+// Import
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap');
+
+// Domtar Digital 
 $bg: #f4f6f8;
 $black: #1a222b;
 $green: #619F42;
 
-//Fonts 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap');
+// Base Typography Styles
+$text-color: #333333;
+$base-font-family: 'Source Sans Pro', sans-serif;
+$base-font-size: 1rem;
+$base-font-weight: 400;
 
 // Brand Colours
 $brand-primary-dark:#003A5D;
 $brand-primary-medium:#0071CE;
 $brand-primary-light:#15A6DF;
-$brand-secondary:#8DC6E8;
+
+$brand-secondary-dark:#8DC6E8;
+$brand-secondary-medium:#8DC6E8;
+$brand-secondary-light:#8DC6E8;
+
 $dark-grey:#333333;
 $medium-grey:#4a4a4a;
 $light-grey:#eceeef;
+
 $orange:#e48d15;
 $teal:#00A0AF;
 $dark-teal:#003b4a;
 $purple:#76236C;
 $white: #ffffff;
 
+$danger: #EE5F5B;
+$success: #28a745;
+$disabled: #DEE3EB;
+
+/* Links */
+$link-color: $brand-primary-dark;
+$link-hover-color: $brand-primary-light;
+$link-visited-color: $purple;
 
 // Variables
 //

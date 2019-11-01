@@ -8,34 +8,32 @@
 */
 
 body {
-    background: $bg;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
     padding: 1.2rem 2.4rem;
 
     &.banner {
-        padding: 0;
+        padding: 1.2rem 0;
     }
 
     &.banner-examples {
-        padding: 0;
-        .fwb { margin-bottom: 1rem;}
+        padding: 1.2rem 0;
+
+        .fwb {
+            margin-bottom: 1rem;
+        }
     }
-}
 
-h1,
-h2 {
-    color: $black;
-    font-weight: 600;
-}
+    &.breadcrumbs {
+        ul {
+            li {
+                a {
+                    color: $brand-primary-dark;
 
-a {
-    color: $green;
-    text-decoration: underline;
-
-    &:hover {
-        color: $green;
-        text-decoration: none;
+                    &:hover {
+                        color: $brand-primary-light;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -47,6 +45,18 @@ a {
     justify-content: center;
 }
 
+.light-bg {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid $brand-primary-dark;
+}
+
+.dark-bg {
+    padding: 2rem;
+    background-color: $brand-primary-dark;
+    margin-bottom: 2rem;
+}
+
 header {
     padding: 0 0 1.2rem 0;
 }
@@ -55,9 +65,22 @@ header {
     font-size: 1.125rem;
     line-height: 2rem;
     margin: 0 auto;
+
+    a {
+        color: $green;
+        text-decoration: underline;
+
+        &:hover {
+            color: $green;
+            text-decoration: none;
+        }
+    }
 }
+
 .table {
-    th, td {
+
+    th,
+    td {
         width: 33%;
         text-align: center;
     }

@@ -1,0 +1,101 @@
+// Media Object List (we can use this as a card, need to work it into the architecture //
+
+.media {
+
+    margin-bottom: 1rem;
+
+    img {
+        margin-right: 1rem;
+    }
+
+    .media-body {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            margin: 0;
+        }
+
+        .media {
+            margin-top: 1rem;
+        }
+    }
+
+
+    .media-body {
+        align-self: center;
+    }
+
+    &:hover {
+        background-color: $brand-primary-light;
+        cursor: pointer;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        a {
+            color: $white;
+        }
+    }
+
+    &.light {
+        background-color: $white;
+
+        &:hover {
+            background-color: $brand-primary-light;
+            cursor: pointer;
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            a {
+                color: $white;
+            }
+        }
+    }
+
+    &.dark {
+        background-color: $brand-primary-dark;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        a {
+            color: $white;
+        }
+
+        &:hover {
+            background-color: $brand-primary-light;
+            cursor: pointer;
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            a {
+                color: $white;
+            }
+        }
+    }
+
+    img {
+        align-self: center;
+    }
+}
