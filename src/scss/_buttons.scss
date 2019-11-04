@@ -1,0 +1,167 @@
+/*
+           _ __               
+ _      __(_) /___ ___  ____ _
+| | /| / / / / __ `__ \/ __ `/
+| |/ |/ / / / / / / / / /_/ / 
+|__/|__/_/_/_/ /_/ /_/\__,_/  
+                              
+*/
+
+.btn {
+    i {
+        display: none;
+        visibility: hidden;
+        padding-left: 1rem;
+
+        @include media-breakpoint-up(sm) {
+            display: inline-block;
+            visibility: inherit;
+        }
+    }
+
+    // common properties
+
+    border: 2px solid;
+
+
+    &.btn-primary {
+
+        background-color: $brand-primary-dark;
+        border: 2px solid $brand-primary-dark;
+        color: $white;
+        ;
+
+        &:hover {
+            background-color: #15A6DF;
+            border: 2px solid #15A6DF;
+        }
+
+        &:not(.disabled):not(.disabled):active {
+
+            &:active {
+                background-color: #15A6DF;
+                border: 2px solid #15A6DF;
+                color: $brand-primary-dark;
+            }
+        }
+
+        &:focus {
+            background-color: #15A6DF;
+            border: 2px solid $brand-primary-dark;
+            color: $brand-primary-dark;
+            box-shadow: 0 0 0 0.2rem rgba(141, 198, 232, 1)
+        }
+    }
+
+    &.btn-secondary {
+
+        background-color: $brand-secondary;
+        border: 2px solid $brand-secondary;
+        color: $brand-primary-dark;
+
+        &:hover {
+            background-color: $white;
+            ;
+            border: 2px solid $brand-primary-dark;
+            color: $brand-primary-dark;
+        }
+
+        &:not(.disabled):not(.disabled):active {
+
+            &:active {
+                background-color: $white;
+                ;
+                border: 2px solid $brand-secondary;
+                color: $brand-secondary;
+            }
+        }
+
+        &:focus {
+            background-color: $white;
+            border: 2px solid $brand-primary-dark;
+            color: $brand-primary-dark;
+            box-shadow: 0 0 0 0.2rem rgba(141, 198, 232, 1)
+        }
+    }
+
+    &.btn-ghost {
+        border-color: $brand-primary-dark;
+        color: $brand-primary-dark;
+
+        &:not(:disabled):not(.disabled):hover,
+        &:not(:disabled):not(.disabled).hover {
+            border-color: $brand-primary-dark;
+            background-color: $brand-primary-dark;
+            color: $white;
+
+        }
+
+        &:not(:disabled):not(.disabled):active,
+        &:not(:disabled):not(.disabled).active {
+            border-color: $brand-primary-dark;
+            background-color: $brand-primary-dark;
+            color: $brand-secondary;
+        }
+
+        &:focus {
+            border-color: $brand-secondary;
+            background-color: $brand-primary-dark;
+            color: $brand-secondary;
+            box-shadow: none;
+        }
+    }
+
+    &.btn-danger {
+        background-color: $danger;
+        border: 2px solid $danger;
+
+        &:not(:disabled):not(.disabled):hover,
+        &:not(:disabled):not(.disabled).hover {
+            background-color: darken($danger, 40%);
+            border-color: darken($danger, 40%);
+        }
+
+        &:not(:disabled):not(.disabled):active,
+        &:not(:disabled):not(.disabled).active {
+            border-color: $danger;
+            background-color: $white;
+            color: $danger;
+        }
+
+        &:focus {
+            background-color: $white;
+            color: $danger;
+            box-shadow: none;
+        }
+    }
+
+    &.btn-success {
+        background-color: $success;
+        border: 2px solid $success;
+
+        &:not(:disabled):not(.disabled):hover,
+        &:not(:disabled):not(.disabled).hover {
+            background-color: darken($success, 20%);
+            border-color: darken($success, 20%);
+        }
+
+        &:not(:disabled):not(.disabled):active,
+        &:not(:disabled):not(.disabled).active {
+            border-color: $success;
+            background-color: $white;
+            color: $success;
+        }
+
+        &:focus {
+            background-color: $white;
+            color: $success;
+            box-shadow: none;
+        }
+    }
+
+    &:disabled {
+        background-color: $disabled;
+        border-color: $disabled;
+    }
+
+}
