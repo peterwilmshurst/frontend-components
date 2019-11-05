@@ -22,15 +22,19 @@ body {
         }
     }
 
-    &.breadcrumbs {
-        ul {
-            li {
-                a {
-                    color: $brand-primary-dark;
+    &.home {
+        padding: 0;
+    }
+}
 
-                    &:hover {
-                        color: $brand-primary-light;
-                    }
+&.breadcrumbs {
+    ul {
+        li {
+            a {
+                color: $brand-primary-dark;
+
+                &:hover {
+                    color: $brand-primary-light;
                 }
             }
         }
