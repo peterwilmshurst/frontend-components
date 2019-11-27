@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="carousel">
     <header>
         <div class="container">
             <div class="row">
@@ -22,12 +22,232 @@
                 </div>
             </div>
         </div>
-
     </header>
 
     <div class="content">
-        <div class="container">
+        <div class="container-fluid">
+
+
+            <!-- Carousel -->
+            <div id="carouselExampleBanner" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <!-- full width banner -->
+                        <div class="fwb">
+                            <div class="wrapper custom-img-1" style="background-position: center center;">
+                                <div class="container">
+                                    <!-- add content area component -->
+                                    <div class="content-area">
+                                        <div class="left-33">
+                                            <!-- text block component -->
+                                            <div class="text-block white-bg fade-75">
+                                                <h3>You&apos;re not Alone</h3>
+                                                <p>We get it. Any level of incontinence can be frustrating. We&apos;re
+                                                    here to
+                                                    offer
+                                                    support and resources
+                                                    to help you get back to doing the things you love most.</p>
+                                                <!-- button component -->
+                                                <a href="#" target="_blank" class="btn btn-primary" role="button">Call
+                                                    to
+                                                    action</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /full width banner -->
+
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <!-- full width banner -->
+                        <div class="fwb">
+                            <div class="wrapper custom-img-2" style="background-position: center center;">
+                                <div class="container">
+                                    <!-- add content area component -->
+                                    <div class="content-area">
+                                        <div class="left-33">
+                                            <!-- text block component -->
+                                            <div class="text-block white-bg fade-75">
+                                                <h3>You&apos;re not Alone</h3>
+                                                <p>We get it. Any level of incontinence can be frustrating. We&apos;re
+                                                    here to
+                                                    offer
+                                                    support and resources
+                                                    to help you get back to doing the things you love most.</p>
+                                                <!-- button component -->
+                                                <a href="#" target="_blank" class="btn btn-primary" role="button">Call
+                                                    to
+                                                    action</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /full width banner -->
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <!-- full width banner -->
+                        <div class="fwb">
+                            <div class="wrapper custom-img-3" style="background-position: center center;">
+                                <div class="container">
+                                    <!-- add content area component -->
+                                    <div class="content-area">
+                                        <div class="left-33">
+                                            <!-- text block component -->
+                                            <div class="text-block white-bg fade-75">
+                                                <h3>You&apos;re not Alone</h3>
+                                                <p>We get it. Any level of incontinence can be frustrating. We&apos;re
+                                                    here to
+                                                    offer
+                                                    support and resources
+                                                    to help you get back to doing the things you love most.</p>
+                                                <!-- button component -->
+                                                <a href="#" target="_blank" class="btn btn-primary" role="button">Call
+                                                    to
+                                                    action</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /full width banner -->
+
+
+                    </div>
+
+                </div>
+
+
+
+                <a class="carousel-control-prev" href="#carouselExampleBanner" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleBanner" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <!-- Carousel End -->
+
         </div>
+
+        <div class="container">
+
+            <div class="text">
+                <h1>Carousel</h1>
+                <p>The carousel component is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or other components within this library. It also includes support for previous/next controls and indicators.</p>
+                <p>The example above incorporates the <a href="./banner.html">Banner component</a> but the <a href="./card.html">Card component</a> can also be used (see below).</p>
+            </div>
+
+
+            <h2>Code Snippet</h2>
+
+            <section class="code-clipboard">
+
+                <pre>
+    <code class="language-html">
+
+            &lt;div id="uniqueIdentifier" class="carousel slide" data-ride="carousel">
+                &lt;div class="carousel-inner">
+                    &lt;div class="carousel-item active">
+                        <kbd>Add slide content here ...</kbd>
+                    &lt;/div>
+                    &lt;div class="carousel-item">
+                        <kbd>Add slide content here ...</kbd>
+                    &lt;/div>
+                    &lt;div class="carousel-item">
+                        <kbd>Add slide content here ...</kbd>
+                    &lt;/div>
+                &lt;/div>
+                
+                &lt;a class="carousel-control-prev" href="#uniqueIdentifier" role="button" data-slide="prev">
+                    &lt;span class="carousel-control-prev-icon" aria-hidden="true">&lt;/span>
+                    &lt;span class="sr-only">Previous&lt;/span>
+                &lt;/a>
+                
+                &lt;a class="carousel-control-next" href="#uniqueIdentifier" role="button" data-slide="next">
+                    &lt;span class="carousel-control-next-icon" aria-hidden="true">&lt;/span>
+                    &lt;span class="sr-only">Next&lt;/span>
+                &lt;/a>
+            &lt;/div>
+
+    </code>
+</pre>
+            </section>
+
+
+
+
+            <div id="carouselExampleCard" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="media light">
+                            <img src="./img/card/featured_list-01@2x.jpg" alt="Featured List 01" width="128"
+                                height="128">
+                            <div class="media-body">
+                                <h3>Stay Dry and Comfortable</h3>
+                                <p>Attends offers a full portfolio of solutions to protect against bladder and bowel
+                                    leaks. No
+                                    matter
+                                    your severity, size or preference, we have a product to meet your needs.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="media dark">
+                            <img src="./img/card/featured_list-01@2x.jpg" alt="Featured List 01" width="128"
+                                height="128">
+                            <div class="media-body">
+                                <h3>Stay Dry and Comfortable</h3>
+                                <p>Attends offers a full portfolio of solutions to protect against bladder and bowel
+                                    leaks. No
+                                    matter
+                                    your severity, size or preference, we have a product to meet your needs.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCard" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCard" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
     </div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->

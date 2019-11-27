@@ -1,0 +1,19 @@
+/*
+           _ __               
+ _      __(_) /___ ___  ____ _
+| | /| / / / / __ `__ \/ __ `/
+| |/ |/ / / / / / / / / /_/ / 
+|__/|__/_/_/_/ /_/ /_/\__,_/  
+                              
+*/
+
+.text-block {
+    padding: 1rem;
+    p {
+        margin: 0;
+    }
+    &.dark {
+        background-color: $brand-primary-dark;
+        color: $white;
+    }
+}

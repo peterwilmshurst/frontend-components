@@ -1,0 +1,151 @@
+
+/* Footer */
+
+footer {
+    .container {
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            text-align: inherit;
+        }
+    }
+
+    h5,
+    .h5 {
+        font-size: 1rem;
+        margin-top: 1rem;
+
+        @include media-breakpoint-up(md) {
+            margin-top: inherit;
+        }
+
+        a {
+            font-size: 1rem;
+        }
+    }
+
+    color: $brand-secondary;
+    background-color: $brand-primary-dark;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style-type: none;
+
+            a {
+                color: $brand-secondary;
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+    .loud {
+        display: none;
+        visibility: hidden;
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+            visibility: visible;
+
+            color: $white;
+            text-align: center;
+            font-size: 1.25rem;
+
+            .notice-me {
+                color: $brand-secondary;
+            }
+
+        }
+    }
+
+    .social {
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            text-align: right;
+        }
+
+        ul {
+            li {
+                display: inline;
+                margin-right: 1rem;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                a {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+
+    .legal {
+        font-size: 0.75rem;
+
+        a {
+            color: $brand-secondary;
+        }
+    }
+
+    .shout-outs {
+        text-align: center;
+
+        @include media-breakpoint-up(md) {
+            text-align: right;
+        }
+    }
+
+    // Simple Footer
+    &.simple {
+        ul {
+            li {
+                display: inline;
+                margin-right: 1rem;
+
+                a {
+                    font-size: 1rem;
+                }
+            }
+
+        }
+
+        .links {
+            @include media-breakpoint-up(md) {
+                display: flex;
+            }
+
+            align-items: center;
+            text-align: center;
+
+            ul {
+                li {
+                    margin-right: 0.5rem;
+
+                    &:not(:last-child):after {
+                        font-family: "Font Awesome 5 Pro";
+                        content: '\f111';
+                        font-weight: 900;
+                        font-size: 0.25rem;
+                        padding-left: 0.5rem;
+                        position: relative;
+                        top: -3px;
+                    }
+                }
+            }
+        }
+
+        .social {
+            margin-bottom: 1rem;
+
+            @include media-breakpoint-up(md) {
+                margin-bottom: inherit;
+            }
+        }
+    }
+}
