@@ -9,9 +9,11 @@
 
 .text-block {
     padding: 1rem;
+
     p {
         margin: 0;
     }
+
     &.dark {
         background-color: $brand-primary-dark;
         color: $white;
