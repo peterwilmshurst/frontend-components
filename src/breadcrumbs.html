@@ -15,16 +15,19 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-2 d-flex align-items-center">
-                    <a href="/"><img src="./img/dcoe-logo-w.svg" alt="Digital Center of Excellence" height="64px"></a>
-                </div>
+
                 <div class="col-1 d-flex align-items-center">
                     <a href="#" id="hamburger">
                         <i class="fas fa-bars"></i>
                     </a>
                 </div>
+
+                <div class="col-2 d-flex align-items-center">
+                    <a href="/"><img src="./img/dcoe-logo-w.svg" alt="Digital Center of Excellence" height="64px"></a>
+                </div>
+
                 <div class="col-9">
-                    <nav>
+                    <nav class="header-nav">
                         <ul id="menu">
                             <li><a href="./layouts-and-architecture.html">Layouts &amp; Architecture</a></li>
                             <li><a href="./content-and-visuals.html">Content &amp; Visuals</a></li>
@@ -36,6 +39,36 @@
             </div>
         </div>
     </header>
+    
+    <nav class="side-nav">
+            <div class="logo">
+                <a href="/"><img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence" height="64px"></a>
+            </div>
+            <h2>Web Components</h2>
+            <h3>Template</h3>
+            <ul>
+                <li><a href="./header.html">Header</a></li>
+                <li><a href="./breadcrumbs.html">Breadcrumbs</a></li>
+                <li><a href="./footer.html">Footer</a></li>
+            </ul>
+            <h3>Page</h3>
+            <ul>
+                <li><a href="./banner.html">Banner</a></li>
+                <li><a href="./carousel.html">Carousel</a></li>
+                <li><a href="./card.html">Card</a></li>
+                <li><a href="#">Embed</a></li>
+                <li><a href="#">Form</a></li>
+                <li><a href="#">Modal</a></li>
+                <li><a href="./text-block.html">Editable Content</a>
+                    <ul>
+                        <li><a href="#">Text</a></li>
+                        <li><a href="#">Image</a></li>
+                        <li><a href="#">List</a></li>
+                        <li><a href="#">Table</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
 
     <div class="content">
         <div class="container">
@@ -46,8 +79,6 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat accusantium corporis nemo
                     natus officiis, molestias suscipit consequuntur consectetur illum adipisci, excepturi
                     mollitia doloremque nesciunt dolores maxime pariatur inventore minus! Accusamus!</p>
-
-
 
                 <h2 class="mt-1">Dependencies</h2>
                 <p>The Breadcrumbs modules uses the <a href="https://fontawesome.com/" target="_blank">font awesome</a>
