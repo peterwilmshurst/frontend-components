@@ -6,6 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/795257317b.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -40,37 +43,123 @@
     </header>
 
     <nav class="side-nav">
-            <div class="logo">
-                <a href="/"><img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence" height="64px"></a>
-            </div>
-            <h2>Web Components</h2>
-            <h3>Template</h3>
-            <ul>
-                <li><a href="./header.html">Header</a></li>
-                <li><a href="./breadcrumbs.html">Breadcrumbs</a></li>
-                <li><a href="./footer.html">Footer</a></li>
-            </ul>
-            <h3>Page</h3>
-            <ul>
-                <li><a href="./banner.html">Banner</a></li>
-                <li><a href="./carousel.html">Carousel</a></li>
-                <li><a href="./card.html">Card</a></li>
-                <li><a href="#">Embed</a></li>
-                <li><a href="#">Form</a></li>
-                <li><a href="#">Modal</a></li>
-                <li><a href="./text-block.html">Editable Content</a>
-                    <ul>
-                        <li><a href="#">Text</a></li>
-                        <li><a href="#">Image</a></li>
-                        <li><a href="#">List</a></li>
-                        <li><a href="#">Table</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="logo">
+            <a href="/"><img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence" height="64px"></a>
+        </div>
+        <h2>Web Components</h2>
+        <h3>Template</h3>
+        <ul>
+            <li><a href="./header.html">Header</a></li>
+            <li><a href="./breadcrumbs.html">Breadcrumbs</a></li>
+            <li><a href="./footer.html">Footer</a></li>
+        </ul>
+        <h3>Page</h3>
+        <ul>
+            <li><a href="./banner.html">Banner</a></li>
+            <li><a href="./carousel.html">Carousel</a></li>
+            <li><a href="./card.html">Card</a></li>
+            <li><a href="#">Embed</a></li>
+            <li><a href="#">Form</a></li>
+            <li><a href="#">Modal</a></li>
+            <li><a href="./text-block.html">Editable Content</a>
+                <ul>
+                    <li><a href="#">Text</a></li>
+                    <li><a href="#">Image</a></li>
+                    <li><a href="#">List</a></li>
+                    <li><a href="#">Table</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
     <div class="content">
         <div class="container">
+
+            <!-- Card One -->
+
+            <section class="cards-vertical-three">
+
+                <div class="wrapper">
+                    <div class="card">
+
+                        <a href="#">
+                            <div class="image">
+
+                                <img src="./img/card/demo_card-01.jpg" alt="Cards Imageholder">
+
+                            </div>
+                            <!-- text block component -->
+
+                            <div class="copy">
+                                <div class="text-block blue-bg white-fg">
+                                    <h3>You&apos;re not Alone</h3>
+                                    <p>Managing incontinence while maintaining your lifestyle can be challenging. Don't
+                                        go
+                                        through it alone, we've developed resources and support to help you along the
+                                        way.</p>
+
+                                    <!-- button component -->
+                                    <a href="#" target="_blank" class="btn btn-secondary" role="button">Call to
+                                        action</a>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <div class="image">
+
+                            <img src="./img/card/demo_card-02.jpg" alt="Cards Imageholder">
+
+                        </div>
+                        <!-- text block component -->
+
+                        <div class="copy">
+                            <div class="text-block white-bg blue-fg">
+                                <h3>Stay Comfortable</h3>
+                                <p>Attends offers a full portfolio of solutions to protect against bladder and bowel
+                                    leaks. No
+                                    matter your severity, size or preference, we have a product to meet your needs.</p>
+
+                                <!-- button component -->
+                                <a href="#" target="_blank" class="btn btn-primary" role="button">Call to action</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card last">
+
+
+                        <div class="image">
+
+                            <img src="./img/card/demo_card-03@2x.jpg" alt="Cards Imageholder">
+
+                        </div>
+                        <!-- text block component -->
+
+                        <div class="copy">
+                            <div class="text-block blue-grad-bg white-fg">
+                                <h3>Caring for Others</h3>
+                                <p>You're caring for a loved one while juggling your own responsibilities. We want to
+                                    make your
+                                    life easier with a few resources and tools that provide a little help along the way.
+                                </p>
+
+                                <!-- button component -->
+                                <a href="#" target="_blank" class="btn btn-secondary" role="button">Call to action</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
 
             <!-- Card Two - we can use a BS Media Object for this. Need to work this into the architecture in the best way possible -->
             <div class="container">

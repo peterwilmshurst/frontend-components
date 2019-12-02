@@ -7,6 +7,118 @@
                               
 */
 
+
+/* Cards Vertical Three renders three cards in a row on desktop. When on a tablet device, the layout of the cards alter to 2 in a row and the third underneath taking up 100% width. On a mobile device the cards stack vertically. */
+
+.cards-vertical-three {
+    @extend .container;
+    margin-bottom: 2.5rem;
+
+    .wrapper {
+        @include make-row();
+        flex-direction: row;
+        display: flex;
+
+        .card {
+            @include make-col-ready();
+            @include make-col(12);
+
+            @include media-breakpoint-only(sm) {
+                margin-bottom: 2rem;
+            }
+
+
+            @include media-breakpoint-only(md) {
+                @include make-col(6);
+            }
+
+            @include media-breakpoint-up(lg) {
+                @include make-col(4);
+            }
+
+            .image {
+                order: 1;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                @include media-breakpoint-up(md) {
+
+                    order: inherit;
+                    margin-bottom: 0;
+                }
+            }
+
+            .content-area {
+                order: 2;
+                display: flex;
+                align-items: stretch;
+
+
+                @include media-breakpoint-up(md) {
+
+                    order: inherit;
+                }
+            }
+
+            &.last {
+
+                @include media-breakpoint-only(sm) {
+                    margin-bottom: 0;
+                }
+
+
+                @include media-breakpoint-only(md) {
+                    @include make-col(12);
+                    @include make-row();
+
+
+                    margin-top: 2rem;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+
+
+                    .image {
+
+                        @include make-col(6);
+
+                    }
+
+                    .content-area {
+
+                        @include make-col(6);
+
+                    }
+                }
+            }
+
+            a:not(.btn) {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+
+    /* Text block Component Rules (when inserted into a card component) */
+
+    .content-area {
+        margin: 0;
+
+        .text-block {
+            border: 2px solid transparent;
+
+
+            &.white-bg {
+                border: 2px solid $light-grey;
+            }
+
+        }
+    }
+}
+
 // Media Object List (we can use this as a card, need to work it into the architecture //
 
 .media {
