@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="438.67" viewBox="0 0 440 438.67">
+  <g id="Group_3886" data-name="Group 3886" transform="translate(-1586.115 -1071.75)">
+    <rect id="Rectangle_82" data-name="Rectangle 82" width="440" height="438.67" transform="translate(1586.115 1071.75)" fill="#8dc6e8"/>
+    <g id="Group_3888" data-name="Group 3888" transform="translate(1627.271 1135.774)">
+      <rect id="Rectangle_83" data-name="Rectangle 83" width="111.92" height="212.541" transform="translate(30.133 53.42)" fill="#fff" opacity="0.8"/>
+      <g id="Rectangle_84" data-name="Rectangle 84" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.362">
+        <rect width="172.185" height="310.621" stroke="none"/>
+        <rect x="1.181" y="1.181" width="169.823" height="308.259" fill="none"/>
+      </g>
+      <g id="Rectangle_85" data-name="Rectangle 85" fill="#333" stroke="#333" stroke-miterlimit="10" stroke-width="2.362">
+        <rect width="172.185" height="21.523" stroke="none"/>
+        <rect x="1.181" y="1.181" width="169.823" height="19.161" fill="none"/>
+      </g>
+      <g id="Rectangle_86" data-name="Rectangle 86" transform="translate(30.133 53.42)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.362">
+        <rect width="327.556" height="212.541" stroke="none"/>
+        <rect x="1.181" y="1.181" width="325.194" height="210.179" fill="none"/>
+      </g>
+      <g id="Rectangle_87" data-name="Rectangle 87" transform="translate(30.133 52.858)" fill="#333" stroke="#333" stroke-miterlimit="10" stroke-width="2.362">
+        <rect width="327.556" height="21.523" stroke="none"/>
+        <rect x="1.181" y="1.181" width="325.194" height="19.161" fill="none"/>
+      </g>
+      <g id="Group_3887" data-name="Group 3887" transform="translate(30.133 53.42)">
+        <g id="Group_3886-2" data-name="Group 3886" transform="translate(24.059 101.596)">
+          <line id="Line_83" data-name="Line 83" y2="110.306" transform="translate(65.417)" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.317"/>
+          <line id="Line_84" data-name="Line 84" y2="110.306" transform="translate(43.611)" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.317"/>
+          <line id="Line_85" data-name="Line 85" y2="110.306" transform="translate(21.806)" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.317"/>
+          <line id="Line_86" data-name="Line 86" y2="110.306" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.317"/>
+        </g>
+        <g id="Rectangle_88" data-name="Rectangle 88" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.362">
+          <rect width="111.92" height="212.541" stroke="none"/>
+          <rect x="1.181" y="1.181" width="109.558" height="210.179" fill="none"/>
+        </g>
+        <g id="Rectangle_89" data-name="Rectangle 89" fill="#0071ce" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.362">
+          <rect width="111.92" height="21.523" stroke="none"/>
+          <rect x="1.181" y="1.181" width="109.558" height="19.161" fill="none"/>
+        </g>
+        <line id="Line_87" data-name="Line 87" x2="110.306" transform="translate(1.614 102.235)" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.317"/>
+        <line id="Line_88" data-name="Line 88" x2="110.306" transform="translate(1.614 124.041)" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.317"/>
+        <line id="Line_89" data-name="Line 89" x2="110.306" transform="translate(1.614 145.846)" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.317"/>
+        <line id="Line_90" data-name="Line 90" x2="110.306" transform="translate(1.614 167.652)" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.317"/>
+        <line id="Line_91" data-name="Line 91" x2="110.306" transform="translate(1.614 189.458)" fill="none" stroke="#0071ce" stroke-miterlimit="10" stroke-width="2.317"/>
+        <circle id="Ellipse_28" data-name="Ellipse 28" cx="24.724" cy="24.724" r="24.724" transform="translate(31.236 133.471)" fill="#333" stroke="#333" stroke-miterlimit="10" stroke-width="1.181"/>
+        <line id="Line_92" data-name="Line 92" y1="30.883" transform="translate(55.96 142.752)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.362"/>
+        <line id="Line_93" data-name="Line 93" x2="30.883" transform="translate(40.518 158.194)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.362"/>
+      </g>
+    </g>
+  </g>
+</svg>

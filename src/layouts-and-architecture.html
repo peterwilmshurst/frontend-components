@@ -48,7 +48,7 @@
         </div>
         <h2>Layouts &amp; Architecture</h2>
         <ul>
-            <li><a href="#">Layout</a></li>
+            <li><a class="scroll" href="#layout">Layout</a></li>
             <li><a href="#">Grids</a></li>
             <li><a href="#">Themes</a></li>
             <li><a href="#">Spacing</a></li>
@@ -65,134 +65,200 @@
             <!-- /full width banner -->
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-8">
-                    <div class="text">
-                        <h1>Layout &amp; Architecture</h1>
-                        <p>Attends layouts, based on bootstraps structure and grid, encourage consistency across
-                            platforms, environments, and screen sizes by using uniform elements and spacing.</p>
 
-                        <h2 id="principles">Principles</h2>
-                        <h3>Predictable</h3>
-                        <p>UIs should use intuitive and predictable layouts, with consistent user interaction regions
-                            and spatial organization.</p>
+            <div class="text">
+                <h1 id="layout">Layout &amp; Architecture</h1>
+                <p>Digital Center of Excellence (DCoE) layouts encourage consistency across platforms, environments, and
+                    screen sizes by using uniform elements and spacing.</p>
 
-                        <h3>Consistent</h3>
-                        <p>Layouts should use a consistent grid, keylines, and padding.</p>
+                <h2>Principles</h2>
 
-                        <h3>Responsive</h3>
-                        <p>Layouts are adaptive and react to input from the user, device, and screen elements.</p>
+                <section class="cards-vertical-three">
 
-                        <h3>Structure</h3>
-                        <p>Attends layouts are visually balanced. Most measurements align to an 8px based grid applied,
-                            which aligns both spacing and the overall layout.
-                            Smaller components, such as iconography and typography, can align to a 4px based grid.</p>
+                    <div class="wrapper">
+                        <div class="card">
+                            <div class="image">
+                                <img src="./img/dcoe/predictable.svg" alt="Predictable">
+                            </div>
+                            <!-- text block component -->
 
+                            <div class="copy">
+                                <div class="text-block">
+                                    <h3>Predictable</h3>
+                                    <p>User Interface’s should use intuitive and predictable layouts, with
+                                        consistent interactive
+                                        areas and spatial organization.</p>
+                                </div>
+                            </div>
+                        </div>
 
-                        <h2>Grid</h2>
+                        <div class="card">
+                            <div class="image">
 
-                        <h3>Responsive layout grid</h3>
-                        <p>The Adobe experience Manager responsive layout grid adapts to screen size and orientation,
-                            ensuring consistency across layouts.</p>
+                                <img src="./img/dcoe/consistent.svg" alt="Consistent">
 
+                            </div>
+                            <!-- text block component -->
 
-                        <h3>Columns</h3>
+                            <div class="copy">
+                                <div class="text-block">
+                                    <h3>Consistent</h3>
+                                    <p>Layouts should use a consistent grid with margins and padding.</p>
+                                </div>
+                            </div>
+                        </div>
 
-                        <p>Content is placed in the areas of the screen that contain columns.</p>
-
-                        <p>Column width is defined using percentages, rather than fixed values, to allow content to
-                            flexibly adapt to any screen size. The number of columns displayed in the grid is determined
-                            by the breakpoint range (a range of predetermined screen sizes) at which a screen is viewed,
-                            whether it’s a breakpoint for mobile, tablet, or another size.</p>
-
-
-                        <h3>Gutters</h3>
-                        <p>Gutters are the spaces between columns. They help separate content. Gutter widths are fixed
-                            values at each breakpoint range. To better adapt to the screen, gutter width can change at
-                            different breakpoints. Wider gutters are more appropriate for larger screens, as they create
-                            more whitespace between columns.</p>
-
-                        <h3>Margins</h3>
-                        <p>Margins are the space between content and the left and right edges of the screen.
-                            Margin widths are defined as fixed values at each breakpoint range. To better adapt to the
-                            screen, the margin width can change at different breakpoints. Wider margins are more
-                            appropriate for larger screens, as they create more whitespace around the perimeter of
-                            content.</p>
+                        <div class="card last">
 
 
-                        <h2>Themes</h2>
-                        <p>Themes are used to customize component styles to fit the specific aesthetic of a brand or
-                            product.</p>
+                            <div class="image">
 
-                        <h3>Theming basics</h3>
-                        <p>Themes are used to modify existing components to fit a specific visual style. By using
-                            Attends’ variables, developers can easily customize all of their components by changing a
-                            set of universal style values, eliminating the need to modify individual components.</p>
+                                <img src="./img/dcoe/responsive.svg" alt="Responsive">
 
-                        <h3>Customising a theme</h3>
-                        <p>The default theme acts as a starting point; from there designers and developers can define
-                            how their own components and styles deviate from the default. Altering one, some, or all of
-                            the default variable values will result in a new theme. The developer then packages those
-                            new values into a new theme SCSS stylesheet which will replace the values of the default
-                            theme.
-                        </p>
+                            </div>
+                            <!-- text block component -->
 
-                        <h3>Variables</h3>
-                        <p>
-                            With variables, the code only needs to be changed in one place to see the effect
-                            system-wide. Variables are used across all components and help keep global patterns and
-                            styles consistent.
-                            Typography, Iconography, colors, sizing, spacing, shaping and grid patterns are all
-                            customizable variables that we allow to change, although there are other styles that can be
-                            changed depending on the complexity of the components in cause.
-                        </p>
+                            <div class="copy">
+                                <div class="text-block">
+                                    <h3>Responsive</h3>
+                                    <p>Layouts are adaptive and react to input from the user, device, and screen
+                                        elements.</p>
+                                </div>
+                            </div>
 
-                        <h3>Styling your theme - Basics</h3>
-                        <p>
-                            To start customizing your theme, you’ll need to modify the variables in your project’s
-                            general.scss file. By default, each theme starts off with Attends’ baseline values. We’ve
-                            added these values in the theme so you can easily swap them out.
-                        </p>
-
-                        <h3>Typography</h3>
-                        <p>
-                            To change your theme’s typography, we recommend using Google Fonts and choosing a
-                            font-family that best reflects your style. You will understand how to import and style fonts
-                            on our components document.
-                        </p>
-                        <h3>
-                            Shape</h3>
-                        <p>
-                            To systematically apply shape throughout your general styles, it helps to understand that
-                            components are grouped by size into categories of small, medium, and large. Each component
-                            size group can be themed by overriding the default values.
-                        </p>
-
-                        <h3>Color</h3>
-                        <p>
-                            To change your theme’s color scheme, replace the default HEX color values with custom HEX
-                            color values.
-                        </p>
-
-                        <p>You can also find out more about customizing our themes on our Web components documentation
-                            to add and personalize existing style. </p>
-
-                        <h2>Spacing</h2>
-                        <p>Spacing is an important — and often overlooked — part of visual design. Attends UI/UX Guide
-                            takes a lot of the guesswork out of spacing to help designers and developers deliver clear,
-                            functional layouts.
-                        </p>
-                        <p>
-                            Consistent spacing creates visual balance that makes the user interface (UI) easier for
-                            Customers to navigate. Apply consistent spacing to improve the quality of the UI.
-                        </p>
-
-                        <h3>The spacing system</h3>
-                        <p>All spacing for components and typography is done in increments of 4 pixels. This 4px value
-                            forms the basic unit of measurement for spacing.</p>
-
+                        </div>
                     </div>
-                </div>
+                </section>
+
+                <h3>Structure</h3>
+                <p>DCoE layouts are visually balanced and can be used to create consistent spacing with typography and
+                    other page elements. Most measurements apply to a 16px based grid whilst smaller components, such as
+                    iconography and typography, can align to a 4px based grid.</p>
+
+                <img src="./img/dcoe/structure.svg" alt="Structure" class="img-fluid">
+
+
+                <h1>TO DO!!!!</h1>
+                <h2>Grid</h2>
+
+                <h3>Responsive layout grid</h3>
+                <p>The Adobe experience Manager responsive layout grid adapts to screen size and orientation,
+                    ensuring consistency across layouts.</p>
+
+                <img src="./img/dcoe/responsive-layout-grid.svg" alt="Responsive Layout Grid" class="img-fluid">
+
+
+                <h3>Columns</h3>
+
+                <p>Content is placed in the areas of the screen that contain columns.</p>
+
+                <p>Column width is defined using percentages, rather than fixed values, to allow content to
+                    flexibly adapt to any screen size. The number of columns displayed in the grid is determined
+                    by the breakpoint range (a range of predetermined screen sizes) at which a screen is viewed,
+                    whether it’s a breakpoint for mobile, tablet, or another size.</p>
+
+
+                <h3>Gutters</h3>
+                <p>Gutters are the spaces between columns. They help separate content. Gutter widths are fixed
+                    values at each breakpoint range. To better adapt to the screen, gutter width can change at
+                    different breakpoints. Wider gutters are more appropriate for larger screens, as they create
+                    more whitespace between columns.</p>
+
+                <h3>Margins</h3>
+                <p>Margins are the space between content and the left and right edges of the screen.
+                    Margin widths are defined as fixed values at each breakpoint range. To better adapt to the
+                    screen, the margin width can change at different breakpoints. Wider margins are more
+                    appropriate for larger screens, as they create more whitespace around the perimeter of
+                    content.</p>
+
+                <h1>TO DO!</h1>
+                <h2>Themes</h2>
+                <p>Themes are used to customize component styles to fit the specific aesthetic of a brand or
+                    product.</p>
+
+                <h3>Theming basics</h3>
+                <p>Themes are used to modify existing components to fit a specific visual style. By using
+                    Attends’ variables, developers can easily customize all of their components by changing a
+                    set of universal style values, eliminating the need to modify individual components.</p>
+
+                <h3>Customising a theme</h3>
+                <p>The default theme acts as a starting point; from there designers and developers can define
+                    how their own components and styles deviate from the default. Altering one, some, or all of
+                    the default variable values will result in a new theme. The developer then packages those
+                    new values into a new theme SCSS stylesheet which will replace the values of the default
+                    theme.
+                </p>
+
+                <h3>Variables</h3>
+                <p>
+                    With variables, the code only needs to be changed in one place to see the effect
+                    system-wide. Variables are used across all components and help keep global patterns and
+                    styles consistent.
+                    Typography, Iconography, colors, sizing, spacing, shaping and grid patterns are all
+                    customizable variables that we allow to change, although there are other styles that can be
+                    changed depending on the complexity of the components in cause.
+                </p>
+
+                <h3>Styling your theme - Basics</h3>
+                <p>
+                    To start customizing your theme, you’ll need to modify the variables in your project’s
+                    general.scss file. By default, each theme starts off with Attends’ baseline values. We’ve
+                    added these values in the theme so you can easily swap them out.
+                </p>
+
+                <h3>Typography</h3>
+                <p>
+                    To change your theme’s typography, we recommend using Google Fonts and choosing a
+                    font-family that best reflects your style. You will understand how to import and style fonts
+                    on our components document.
+                </p>
+                <h3>
+                    Shape</h3>
+                <p>
+                    To systematically apply shape throughout your general styles, it helps to understand that
+                    components are grouped by size into categories of small, medium, and large. Each component
+                    size group can be themed by overriding the default values.
+                </p>
+
+                <h3>Color</h3>
+                <p>
+                    To change your theme’s color scheme, replace the default HEX color values with custom HEX
+                    color values.
+                </p>
+
+                <p>You can also find out more about customizing our themes on our Web components documentation
+                    to add and personalize existing style. </p>
+
+                <h2>Spacing</h2>
+                <p>Spacing is an important — and often overlooked — part of visual design. This UI/UX Guide takes a lot
+                    of the guesswork out of spacing to help designers and developers deliver clear, functional layouts.
+                </p>
+                <p>Consistent spacing creates visual balance that makes the user interface (UI) easier for customers to
+                    navigate. It is important to apply consistent spacing to improve the quality of the UI.</p>
+
+                <h3>The spacing system</h3>
+                <p>All spacing for components and typography is done in increments of 4 pixels. This 4px value forms the
+                    basic unit of measurement for spacing.</p>
+                <p>Typography doesn’t use a traditional baseline grid. Instead, line heights are set in increments of
+                    4px and spacing is measured from the edges of the text boxes.</p>
+                <p>Many elements are sized in increments of 20px to match the line height of body text. This makes it
+                    easy to create clear and harmonious layouts.</p>
+
+                <p>For example, the standard size of the avatar element has been chosen to match the line height of the
+                    body text.</p>
+
+                <h3>How to choose spacing</h3>
+                <p>Use less space between small components, or components that share a close functional relationship.
+                </p>
+                <p>Use more space between large components, or between components which are less functionally related.
+                </p>
+                <p>Coordinate small and large values, along with structural components like cards, to create visual
+                    groupings of related things. This will help customers understand the interface and make it easier
+                    for them to find what they are looking for.</p>
+                <p>For screens with specialized layouts, adjust overall spacing based on the density of the content. For
+                    example, a simple login screen on desktop display has more room to breathe, so more space can be
+                    used.</p>
+
             </div>
         </div>
     </div>

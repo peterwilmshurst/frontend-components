@@ -13,6 +13,7 @@ RESET
 
 .container-fluid {
     padding: 0;
+    max-width: 1920px;
 }
 
 /* ==========================================================================
@@ -167,11 +168,11 @@ POSITION
             margin-bottom: 0;
         }
 
-   
-            margin-bottom: 2rem;
-            z-index: 10;
-        }
-    
+
+        margin-bottom: 2rem;
+        z-index: 10;
+    }
+
 
     .left-33 {
         @extend .col-md-6;
@@ -273,7 +274,8 @@ TEXT BLOCK
 
     /* RULE: Text in a blue background will be white by default */
 
-    &.blue-bg, &.blue-grad-bg {
+    &.blue-bg,
+    &.blue-grad-bg {
 
         color: $white;
 

@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="705.108" height="386.919" viewBox="0 0 705.108 386.919">
+  <defs>
+    <filter id="Rectangle_10" x="0" y="0" width="234" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-2" x="140.368" y="260" width="213.91" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-3" x="356.85" y="260" width="207.697" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-4" x="391" y="0" width="314.108" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-5" x="236" y="0" width="152.544" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-6" x="0" y="130" width="172.419" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-7" x="0" y="260" width="137.706" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-8" x="567.401" y="260" width="137.706" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-9" x="176.896" y="130" width="172.419" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-10" x="354.793" y="130" width="172.419" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10-11" x="532.689" y="130" width="172.419" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4425" data-name="Group 4425" transform="translate(-32 -1870)">
+    <g id="Group_24" data-name="Group 24" transform="translate(41 1876)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_10)">
+        <rect id="Rectangle_10-12" data-name="Rectangle 10" width="216" height="108.919" transform="translate(9 6)" fill="#fff"/>
+      </g>
+      <g id="Group_11" data-name="Group 11" transform="translate(11 77.524)">
+        <text id="RGB_51_51_51_RGB_118_119_122_" data-name="RGB (51, 51, 51) | RGB (118, 119, 122)" transform="translate(0 14)" fill="#333" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(51, 51, 51) </tspan><tspan y="0">| RGB</tspan><tspan y="0" xml:space="preserve" fill="#76777a"> (118, 119, 122)</tspan></text>
+      </g>
+      <g id="Group_33" data-name="Group 33" transform="translate(11 61.524)">
+        <text id="Dark_Gray_333333_4a4a4a" data-name="Dark Gray #333333, #4a4a4a" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Dark Gray </tspan><tspan y="0" fill="#76777a">#333333, #4a4a4a</tspan></text>
+      </g>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="108" height="50" fill="#333"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="108" height="50" transform="translate(108)" fill="#4a4a4a"/>
+    </g>
+    <g id="Group_41" data-name="Group 41" transform="translate(181.368 2136)">
+      <g transform="matrix(1, 0, 0, 1, -149.37, -266)" filter="url(#Rectangle_10-2)">
+        <rect id="Rectangle_10-13" data-name="Rectangle 10" width="195.91" height="108.919" transform="translate(149.37 266)" fill="#fff"/>
+      </g>
+      <g id="Group_11-2" data-name="Group 11" transform="translate(10.874 79.524)">
+        <text id="RGB_185_74_72_RGB_238_95_91_" data-name="RGB (185, 74, 72) | RGB (238, 95, 91)" transform="translate(0 11)" fill="#333" font-size="11" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(185, 74, 72) </tspan><tspan y="0">| RGB</tspan><tspan y="0" xml:space="preserve" fill="#76777a"> (238, 95, 91)</tspan></text>
+      </g>
+      <g id="Group_33-2" data-name="Group 33" transform="translate(10.874 61.524)">
+        <text id="Red_B94A48_EE5F5B" data-name="Red #B94A48, #EE5F5B" transform="translate(0 13)" fill="#333" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Red </tspan><tspan y="0" fill="#76777a">#B94A48, #EE5F5B</tspan></text>
+      </g>
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="97.955" height="50" fill="#b94a48"/>
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="97.955" height="50" transform="translate(97.955)" fill="#ee5f5b"/>
+    </g>
+    <g id="Group_42" data-name="Group 42" transform="translate(397.85 2136)">
+      <g transform="matrix(1, 0, 0, 1, -365.85, -266)" filter="url(#Rectangle_10-3)">
+        <rect id="Rectangle_10-14" data-name="Rectangle 10" width="189.697" height="108.919" transform="translate(365.85 266)" fill="#fff"/>
+      </g>
+      <g id="Group_11-3" data-name="Group 11" transform="translate(10.874 79.524)">
+        <text id="RGB_36_162_73_RGB_0_219_51_" data-name="RGB (36, 162, 73) | RGB (0, 219, 51)" transform="translate(0 11)" fill="#333" font-size="11" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(36, 162, 73) </tspan><tspan y="0">| RGB</tspan><tspan y="0" xml:space="preserve" fill="#76777a"> (0, 219, 51)</tspan></text>
+      </g>
+      <g id="Group_33-3" data-name="Group 33" transform="translate(10.874 61.524)">
+        <text id="Green_24A249_00DB33" data-name="Green #24A249, #00DB33" transform="translate(0 13)" fill="#333" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Green </tspan><tspan y="0" fill="#76777a">#24A249, #00DB33</tspan></text>
+      </g>
+      <rect id="Rectangle_3-3" data-name="Rectangle 3" width="94.848" height="50" fill="#24a249"/>
+      <rect id="Rectangle_4-3" data-name="Rectangle 4" width="94.848" height="50" transform="translate(94.848)" fill="#00db33"/>
+    </g>
+    <g id="Group_35" data-name="Group 35" transform="translate(432 1876)">
+      <g transform="matrix(1, 0, 0, 1, -400, -6)" filter="url(#Rectangle_10-4)">
+        <rect id="Rectangle_10-15" data-name="Rectangle 10" width="296.108" height="108.919" transform="translate(400 6)" fill="#fff"/>
+      </g>
+      <g id="Group_11-4" data-name="Group 11" transform="translate(15.08 79.524)">
+        <text id="RGB_0_58_93_RGB_0_113_206_RGB_21_166_223_" data-name="RGB (0, 58, 93) | RGB (0, 113, 206) | RGB (21, 166, 223)" transform="translate(0 12)" fill="#333" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(0, 58, 93) </tspan><tspan y="0">| RGB</tspan><tspan y="0" xml:space="preserve" fill="#76777a"> (0, 113, 206)</tspan><tspan y="0" xml:space="preserve"> | RGB </tspan><tspan y="0" fill="#76777a">(21, 166, 223)</tspan></text>
+      </g>
+      <g id="Group_33-4" data-name="Group 33" transform="translate(15.08 61.524)">
+        <text id="Attends_Blue_003A5D_0071CE_15A6DF" data-name="Attends Blue #003A5D, #0071CE, #15A6DF" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Attends Blue </tspan><tspan y="0" fill="#76777a">#003A5D, #0071CE, #15A6DF</tspan></text>
+      </g>
+      <rect id="Rectangle_3-4" data-name="Rectangle 3" width="98.703" height="50" fill="#003a5d"/>
+      <rect id="Rectangle_4-4" data-name="Rectangle 4" width="98.703" height="50" transform="translate(98.703)" fill="#0071ce"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="98.703" height="50" transform="translate(197.405)" fill="#15a6df"/>
+    </g>
+    <g id="Group_25" data-name="Group 25" transform="translate(277 1876)">
+      <g transform="matrix(1, 0, 0, 1, -245, -6)" filter="url(#Rectangle_10-5)">
+        <rect id="Rectangle_10-16" data-name="Rectangle 10" width="134.544" height="108.919" transform="translate(245 6)" fill="#fff"/>
+      </g>
+      <g id="Group_11-5" data-name="Group 11" transform="translate(11 61.919)">
+        <text id="Light_Gray_eceeef" data-name="Light Gray #eceeef" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Light Gray </tspan><tspan y="0" fill="#76777a">#eceeef</tspan></text>
+      </g>
+      <rect id="Rectangle_3-5" data-name="Rectangle 3" width="134.544" height="50" fill="#eceeef"/>
+      <g id="Group_34" data-name="Group 34" transform="translate(11 79.524)">
+        <text id="RGB_236_238_239_" data-name="RGB (236, 238, 239)" transform="translate(0 12)" fill="#333" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(236, 238, 239)</tspan></text>
+      </g>
+    </g>
+    <g id="Group_37" data-name="Group 37" transform="translate(41 2006)">
+      <g transform="matrix(1, 0, 0, 1, -9, -136)" filter="url(#Rectangle_10-6)">
+        <rect id="Rectangle_10-17" data-name="Rectangle 10" width="154.419" height="108.919" transform="translate(9 136)" fill="#fff"/>
+      </g>
+      <g id="Group_11-6" data-name="Group 11" transform="translate(12.625 61.919)">
+        <text id="Light_Blue_8DC6E8" data-name="Light Blue #8DC6E8" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Light Blue </tspan><tspan y="0" fill="#76777a">#8DC6E8</tspan></text>
+      </g>
+      <rect id="Rectangle_3-6" data-name="Rectangle 3" width="154.419" height="50" fill="#8dc6e8"/>
+      <g id="Group_34-2" data-name="Group 34" transform="translate(12.625 79.524)">
+        <text id="RGB_141_198_232_" data-name="RGB (141, 198, 232)" transform="translate(0 12)" fill="#333" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(141, 198, 232)</tspan></text>
+      </g>
+    </g>
+    <g id="Group_43" data-name="Group 43" transform="translate(41 2136)">
+      <g transform="matrix(1, 0, 0, 1, -9, -266)" filter="url(#Rectangle_10-7)">
+        <rect id="Rectangle_10-18" data-name="Rectangle 10" width="119.706" height="108.919" transform="translate(9 266)" fill="#fff"/>
+      </g>
+      <g id="Group_11-7" data-name="Group 11" transform="translate(12.48 61.919)">
+        <text id="Purple_76236C" data-name="Purple #76236C" transform="translate(0 13)" fill="#333" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Purple </tspan><tspan y="0" fill="#76777a">#76236C</tspan></text>
+      </g>
+      <rect id="Rectangle_3-7" data-name="Rectangle 3" width="119.706" height="50" fill="#76236c"/>
+      <g id="Group_34-3" data-name="Group 34" transform="translate(12.48 79.524)">
+        <text id="RGB_118_35_108_" data-name="RGB (118, 35, 108)" transform="translate(0 11)" fill="#333" font-size="11" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(118, 35, 108)</tspan></text>
+      </g>
+    </g>
+    <g id="Group_44" data-name="Group 44" transform="translate(608.401 2136)">
+      <g transform="matrix(1, 0, 0, 1, -576.4, -266)" filter="url(#Rectangle_10-8)">
+        <rect id="Rectangle_10-19" data-name="Rectangle 10" width="119.706" height="108.919" transform="translate(576.4 266)" fill="#fff"/>
+      </g>
+      <g id="Group_11-8" data-name="Group 11" transform="translate(12.48 61.919)">
+        <text id="Pink_f478c4" data-name="Pink #f478c4" transform="translate(0 13)" fill="#333" font-size="13" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Pink </tspan><tspan y="0" fill="#76777a">#f478c4</tspan></text>
+      </g>
+      <rect id="Rectangle_3-8" data-name="Rectangle 3" width="119.706" height="50" fill="#f478c4"/>
+      <g id="Group_34-4" data-name="Group 34" transform="translate(12.48 79.524)">
+        <text id="RGB_244_120_196_" data-name="RGB (244, 120, 196)" transform="translate(0 11)" fill="#333" font-size="11" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(244, 120, 196)</tspan></text>
+      </g>
+    </g>
+    <g id="Group_38" data-name="Group 38" transform="translate(217.896 2006)">
+      <g transform="matrix(1, 0, 0, 1, -185.9, -136)" filter="url(#Rectangle_10-9)">
+        <rect id="Rectangle_10-20" data-name="Rectangle 10" width="154.419" height="108.919" transform="translate(185.9 136)" fill="#fff"/>
+      </g>
+      <g id="Group_11-9" data-name="Group 11" transform="translate(12.625 61.919)">
+        <text id="Orange_e48d15" data-name="Orange #e48d15" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Orange </tspan><tspan y="0" fill="#76777a">#e48d15</tspan></text>
+      </g>
+      <rect id="Rectangle_3-9" data-name="Rectangle 3" width="154.419" height="50" fill="#e48d15"/>
+      <g id="Group_34-5" data-name="Group 34" transform="translate(12.625 79.524)">
+        <text id="RGB_228_141_21_" data-name="RGB (228, 141, 21)" transform="translate(0 12)" fill="#333" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(228, 141, 21)</tspan></text>
+      </g>
+    </g>
+    <g id="Group_39" data-name="Group 39" transform="translate(395.793 2006)">
+      <g transform="matrix(1, 0, 0, 1, -363.79, -136)" filter="url(#Rectangle_10-10)">
+        <rect id="Rectangle_10-21" data-name="Rectangle 10" width="154.419" height="108.919" transform="translate(363.79 136)" fill="#fff"/>
+      </g>
+      <g id="Group_11-10" data-name="Group 11" transform="translate(12.625 61.919)">
+        <text id="Teal_00A0AF" data-name="Teal #00A0AF" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Teal </tspan><tspan y="0" fill="#76777a">#00A0AF</tspan></text>
+      </g>
+      <rect id="Rectangle_3-10" data-name="Rectangle 3" width="154.419" height="50" fill="#00a0af"/>
+      <g id="Group_34-6" data-name="Group 34" transform="translate(12.625 79.524)">
+        <text id="RGB_0_160_175_" data-name="RGB (0, 160, 175)" transform="translate(0 12)" fill="#333" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(0, 160, 175)</tspan></text>
+      </g>
+    </g>
+    <g id="Group_40" data-name="Group 40" transform="translate(573.689 2006)">
+      <g transform="matrix(1, 0, 0, 1, -541.69, -136)" filter="url(#Rectangle_10-11)">
+        <rect id="Rectangle_10-22" data-name="Rectangle 10" width="154.419" height="108.919" transform="translate(541.69 136)" fill="#fff"/>
+      </g>
+      <g id="Group_11-11" data-name="Group 11" transform="translate(12.625 61.919)">
+        <text id="Dark_Teal_003b4a" data-name="Dark Teal #003b4a" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Dark Teal </tspan><tspan y="0" fill="#76777a">#003b4a</tspan></text>
+      </g>
+      <rect id="Rectangle_3-11" data-name="Rectangle 3" width="154.419" height="50" fill="#003b4a"/>
+      <g id="Group_34-7" data-name="Group 34" transform="translate(12.625 79.524)">
+        <text id="RGB_0_59_74_" data-name="RGB (0, 59, 74)" transform="translate(0 12)" fill="#333" font-size="12" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">RGB </tspan><tspan y="0" fill="#76777a">(0, 59, 74)</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/795257317b.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="header-show">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-1 d-flex align-items-center">
+                    <a href="#" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+
+                <div class="col-2 d-flex align-items-center">
+                    <a href="/"><img src="./img/dcoe-logo-w.svg" alt="Digital Center of Excellence" height="64px"></a>
+                </div>
+
+                <div class="col-9">
+                    <nav class="header-nav">
+                        <ul id="menu">
+                            <li><a href="./layouts-and-architecture.html">Layouts &amp; Architecture</a></li>
+                            <li><a href="./content-and-visuals.html">Content &amp; Visuals</a></li>
+                            <li><a href="./web-components.html">Web Components</a></li>
+                            <li><a href="./resources.html">Resources</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="side-nav">
+        <div class="logo">
+            <a href="/"><img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence" height="64px"></a>
+        </div>
+        <h2>Web Components</h2>
+
+        <h3>Template</h3>
+        <ul>
+            <li><a href="./header.html">Header</a></li>
+            <li><a href="./breadcrumbs.html">Breadcrumbs</a></li>
+            <li><a href="./footer.html">Footer</a></li>
+        </ul>
+
+        <h3>Page</h3>
+        <ul>
+            <li><a href="./banner.html">Banner</a></li>
+            <li><a href="./carousel.html">Carousel</a></li>
+            <li><a href="./card.html">Card</a></li>
+            <li><a href="./embed.html">Embed</a></li>
+            <li><a href="#">Form</a></li>
+            <li><a href="#">Modal</a></li>
+            <li><a href="./text-block.html">Editable Content</a>
+                <ul>
+                    <li><a href="#">Text</a></li>
+                    <li><a href="#">Image</a></li>
+                    <li><a href="#">List</a></li>
+                    <li><a href="#">Table</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div class="content">
+        <div class="container">
+
+            <div class="text">
+
+                <h1>Embed</h1>
+                <p>Create responsive video or slideshow embeds based on the width of the parent by creating an
+                    intrinsic ratio that scales on any device.</p>
+
+                <h2>About</h2>
+                <p>Rules are directly applied to <kbd>iframe</kbd>, <kbd>embed</kbd>, <kbd>video</kbd> and
+                    <kbd>object</kbd> elements; optionally use an explicit descendant class
+                    <kbd>.embed-responsive-item</kbd> when you want to match the styling for other attributes.
+                </p>
+
+                <h2>Example</h2>
+                <p>Wrap any embed like an iframe in a parent element with .embed-responsive and an aspect ratio.
+                    The <kbd>.embed-responsive-item</kbd> isn’t strictly required, but we encourage it.</p>
+
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FvVbuVqb2UY"
+                        allowfullscreen></iframe>
+                </div>
+
+                <h2>Code Snippet</h2>
+
+                <section class="code-clipboard">
+                    <pre>
+            <code class="language-html">
+                &lt;div class="embed-responsive embed-responsive-16by9">
+                    &lt;iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen>&lt;/iframe>
+                &lt;/div>
+            </code>
+        </pre>
+                </section>
+
+                <h2>Aspect ratios</h2>
+                <p>Aspect ratios can be customized with modifier classes.</p>
+
+                <section class="code-clipboard">
+                    <pre>
+            <code class="language-html">
+                    &lt;!-- 21:9 aspect ratio -->
+                    &lt;div class="embed-responsive embed-responsive-21by9">
+                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
+                    &lt;/div>
+      
+                    &lt;!-- 16:9 aspect ratio -->
+                    &lt;div class="embed-responsive embed-responsive-16by9">
+                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
+                    &lt;/div>
+      
+                    &lt;!-- 4:3 aspect ratio -->
+                    &lt;div class="embed-responsive embed-responsive-4by3">
+                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
+                    &lt;/div>
+      
+                    &lt;!-- 1:1 aspect ratio -->
+                    &lt;div class="embed-responsive embed-responsive-1by1">
+                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
+                    &lt;/div>
+
+                    </div>
+  
+        </div>
+    </div>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+    </script>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
