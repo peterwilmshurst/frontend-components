@@ -1,0 +1,40 @@
+.media {
+    margin-bottom: 1rem;
+
+    img {
+        margin-right: 1rem;
+    }
+
+    .media-body {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p {
+            margin: 0;
+        }
+
+        .media {
+            margin-top: 1rem;
+        }
+    }
+
+    &.dark {
+        background-color: $brand-primary-dark;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        a {
+            color: $white;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="341" height="163" viewBox="0 0 341 163">
+  <g id="Group_4422" data-name="Group 4422" transform="translate(-388 -34897)">
+    <rect id="Rectangle_399" data-name="Rectangle 399" width="163" height="163" transform="translate(388 34897)" fill="#dee3eb"/>
+    <rect id="Rectangle_401" data-name="Rectangle 401" width="163" height="163" transform="translate(566 34897)" fill="#dee3eb"/>
+    <rect id="Rectangle_400" data-name="Rectangle 400" width="12" height="163" transform="translate(388 34897)" fill="#003a5d"/>
+    <rect id="Rectangle_402" data-name="Rectangle 402" width="163" height="163" transform="translate(566 34897)" fill="#003a5d"/>
+    <g id="Group_4212" data-name="Group 4212" transform="translate(48.818 10342)">
+      <line id="Line_301" data-name="Line 301" x2="28.182" transform="translate(358.5 24706.5)" fill="none" stroke="#333" stroke-width="4"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M6,0l6,11H0Z" transform="translate(393.682 24700.5) rotate(90)" fill="#333"/>
+    </g>
+    <g id="Group_4213" data-name="Group 4213" transform="translate(48.818 10203)">
+      <line id="Line_301-2" data-name="Line 301" x2="28.182" transform="translate(358.5 24706.5)" fill="none" stroke="#333" stroke-width="4"/>
+      <path id="Polygon_1-2" data-name="Polygon 1" d="M6,0l6,11H0Z" transform="translate(393.682 24700.5) rotate(90)" fill="#333"/>
+    </g>
+  </g>
+</svg>

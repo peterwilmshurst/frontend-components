@@ -1,0 +1,58 @@
+/*
+           _ __               
+ _      __(_) /___ ___  ____ _
+| | /| / / / / __ `__ \/ __ `/
+| |/ |/ / / / / / / / / /_/ / 
+|__/|__/_/_/_/ /_/ /_/\__,_/  
+  
+Version 2019.1.0
+*/
+
+/* Ordered List */
+.dcoe--list--ordered {
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+
+    .dcoe--list__item {
+        .dcoe--list--nested {
+            .dcoe--list__item {
+                list-style-type: lower-alpha;
+            }
+
+
+            .dcoe--list--nested {
+                .dcoe--list__item {
+                    list-style-type: lower-roman;
+                }
+            }
+        }
+    }
+}
+
+/* Unordered List */
+.dcoe--list--unordered {
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+    list-style-type: disc;
+
+}
+
+/* Inline List */
+.dcoe--list--inline {
+    margin: 0;
+    padding: 0;
+
+    .dcoe--list__item {
+        display: inline;
+        margin-left: 3px;
+        margin-right: 3px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

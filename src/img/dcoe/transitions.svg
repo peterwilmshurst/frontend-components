@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="519" height="208" viewBox="0 0 519 208">
+  <g id="Group_4426" data-name="Group 4426" transform="translate(-125 -35685)">
+    <rect id="Rectangle_416" data-name="Rectangle 416" width="163" height="163" transform="translate(125 35685)" fill="#dee3eb"/>
+    <rect id="Rectangle_418" data-name="Rectangle 418" width="163" height="163" transform="translate(303 35685)" fill="#dee3eb"/>
+    <rect id="Rectangle_420" data-name="Rectangle 420" width="163" height="163" transform="translate(481 35685)" fill="#dee3eb"/>
+    <rect id="Rectangle_417" data-name="Rectangle 417" width="83" height="83" transform="translate(165 35725)" fill="#003a5d"/>
+    <rect id="Rectangle_419" data-name="Rectangle 419" width="163" height="163" transform="translate(303 35685)" fill="#003a5d"/>
+    <rect id="Rectangle_421" data-name="Rectangle 421" width="163" height="22" transform="translate(481 35826)" fill="#003a5d"/>
+    <g id="Group_4221" data-name="Group 4221" transform="translate(-263.23 10975.178)">
+      <g id="Group_4214" data-name="Group 4214" transform="translate(429.194 24838.82) rotate(135)">
+        <line id="Line_301" data-name="Line 301" x2="21.931" transform="translate(0 4.669)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1" data-name="Polygon 1" d="M4.669,0,9.339,8.56H0Z" transform="translate(27.379) rotate(90)" fill="#333"/>
+      </g>
+      <g id="Group_4215" data-name="Group 4215" transform="translate(510.625 24744.182) rotate(-45)">
+        <line id="Line_301-2" data-name="Line 301" x2="21.931" transform="translate(0 4.669)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1-2" data-name="Polygon 1" d="M4.669,0,9.339,8.56H0Z" transform="translate(27.379) rotate(90)" fill="#333"/>
+      </g>
+      <g id="Group_4216" data-name="Group 4216" transform="translate(422.59 24750.785) rotate(-135)">
+        <line id="Line_301-3" data-name="Line 301" x2="21.931" transform="translate(0 4.669)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1-3" data-name="Polygon 1" d="M4.669,0,9.339,8.56H0Z" transform="translate(27.379) rotate(90)" fill="#333"/>
+      </g>
+      <g id="Group_4217" data-name="Group 4217" transform="translate(517.229 24832.217) rotate(45)">
+        <line id="Line_301-4" data-name="Line 301" x2="21.931" transform="translate(0 4.669)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1-4" data-name="Polygon 1" d="M4.669,0,9.339,8.56H0Z" transform="translate(27.379) rotate(90)" fill="#333"/>
+      </g>
+    </g>
+    <g id="Group_4224" data-name="Group 4224" transform="translate(1.59 10384)">
+      <g id="Group_4222" data-name="Group 4222" transform="translate(25197.91 25043.91) rotate(90)">
+        <line id="Line_301-5" data-name="Line 301" x2="28.182" transform="translate(358.5 24706.5)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1-5" data-name="Polygon 1" d="M6,0l6,11H0Z" transform="translate(393.682 24700.5) rotate(90)" fill="#333"/>
+      </g>
+      <g id="Group_4223" data-name="Group 4223" transform="translate(25336.91 25043.91) rotate(90)">
+        <line id="Line_301-6" data-name="Line 301" x2="28.182" transform="translate(358.5 24706.5)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1-6" data-name="Polygon 1" d="M6,0l6,11H0Z" transform="translate(393.682 24700.5) rotate(90)" fill="#333"/>
+      </g>
+    </g>
+    <text id="Scale" transform="translate(206 35880)" fill="#333" font-size="18" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="-24.192" y="0">Scale</tspan></text>
+    <text id="Full_in_frame" data-name="Full in frame" transform="translate(384 35880)" fill="#333" font-size="18" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="-56.331" y="0">Full in frame</tspan></text>
+    <text id="Direction_of_Movement" data-name="Direction
+of Movement" transform="translate(566 35871)" fill="#333" font-size="18" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="-41.499" y="0">Direction</tspan><tspan x="-59.229" y="18">of Movement</tspan></text>
+  </g>
+</svg>

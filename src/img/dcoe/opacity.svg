@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="341" height="163" viewBox="0 0 341 163">
+  <g id="Group_4423" data-name="Group 4423" transform="translate(-388 -35291)">
+    <rect id="Rectangle_407" data-name="Rectangle 407" width="163" height="163" transform="translate(388 35291)" fill="#dee3eb"/>
+    <rect id="Rectangle_408" data-name="Rectangle 408" width="163" height="163" transform="translate(566 35291)" fill="#dee3eb"/>
+    <rect id="Rectangle_409" data-name="Rectangle 409" width="163" height="163" transform="translate(566 35291)" fill="#003a5d"/>
+    <text id="Element_hidden" data-name="Element hidden" transform="translate(470 35442)" fill="#003a5d" font-size="18" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-weight="600"><tspan x="-61.218" y="0">Element hidden</tspan></text>
+    <text id="Element_Shown" data-name="Element Shown" transform="translate(648 35442)" fill="#dee3eb" font-size="18" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-weight="600"><tspan x="-60.669" y="0">Element Shown</tspan></text>
+  </g>
+</svg>

@@ -7,19 +7,54 @@
                               
 */
 
-body {
-    &.breadcrumbs {
-        ul {
-            li {
-                a {
-                    color: $brand-primary-dark;
+// body {
+//     &.breadcrumbs {
+//         ul {
+//             li {
+//                 a {
+//                     color: $brand-primary-dark;
 
-                    &:hover {
-                        color: $brand-primary-light;
-                    }
-                }
-            }
-        }
+//                     &:hover {
+//                         color: $brand-primary-light;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+// Helpers
+
+.components-nav, .page-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.component-example {
+    padding: 2rem 2rem 2.5rem;
+
+    &.center {
+        justify-content: center;
+        display: flex;
+    }
+    &.dark {
+        background-color: $brand-primary-dark;
+    }
+}
+
+.component-fiddle {
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid $green;
+
+    &.last {
+        border-bottom: none;
+    }
+}
+
+.tab-content {
+    h2 {
+        padding: 1rem;
     }
 }
 
@@ -125,6 +160,7 @@ header {
 
 .content {
     padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 header {

@@ -1,0 +1,73 @@
+/*
+           _ __               
+ _      __(_) /___ ___  ____ _
+| | /| / / / / __ `__ \/ __ `/
+| |/ |/ / / / / / / / / /_/ / 
+|__/|__/_/_/_/ /_/ /_/\__,_/  
+  
+Version 2019.1.0
+*/
+
+/* reset margin and padding */
+.dcoe--breadcrumb {
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .dcoe--breadcrumb-item {
+        display: inline;
+        margin-right: 0.5rem;
+
+        &:not(:last-child)::after {
+            font-family: "Font Awesome 5 Pro";
+            content: '\f111';
+            font-weight: 900;
+            font-size: 0.25rem;
+            padding-left: 0.5rem;
+            position: relative;
+            top: -3px;
+        }
+
+        &--current {
+            display: inline;
+
+            .dcoe--link {
+                color: $disabled;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    
+/* dark theme */
+    &.dark {
+
+        .dcoe--breadcrumb-item {
+            &:not(:last-child):after {
+                color: $white;
+            }
+
+            .dcoe--link {
+                color: $brand-primary-light;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+
+            &--current {
+
+                .dcoe--link {
+                    color: $disabled;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -94,9 +94,9 @@
 
                 <div class="col-9 page-content">
 
-                        <h1>Embed</h1>
-                        <p>Create responsive video or slideshow embeds based on the width of the parent by creating an
-                            intrinsic ratio that scales on any device.</p>
+
+                    <h1>List</h1>
+                    <p>Lists consist of related content grouped together and organized vertically.</p>
 
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
@@ -113,18 +113,82 @@
                         </li>
                     </ul>
 
-
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="code" role="tabpanel" aria-labelledby="code-tab">
 
-                            <div class="component-example">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FvVbuVqb2UY"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                </div>
+                            <h2>Ordered List</h2>
 
+                            <div class="component-example center">
+                                <ol class="dcoe--list--ordered">
+                                    <li class="dcoe--list__item">List Item 01</li>
+                                    <li class="dcoe--list__item">List Item 02
+                                        <ol class="dcoe--list--nested">
+                                            <li class="dcoe--list__item">Second Level List Item 01</li>
+                                            <li class="dcoe--list__item">Second Level List Item 02</li>
+                                            <li class="dcoe--list__item">Second Level List Item 03
+
+                                                <ol class="dcoe--list--nested">
+                                                    <li class="dcoe--list__item">Third Level List Item 01</li>
+                                                    <li class="dcoe--list__item">Third Level List Item 02</li>
+                                                    <li class="dcoe--list__item">Third Level List Item 03</li>
+                                                </ol>
+
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li class="dcoe--list__item">List Item 03</li>
+                                    <li class="dcoe--list__item">List Item 04</li>
+                                </ol>
+                            </div>
+                            <div class="component-fiddle">
+                                <script async src="//jsfiddle.net/peterwilmshurst/6psLnfq7/2/embed/html,css/"></script>
+                            </div>
+
+                            <h2>Unordered List</h2>
+
+                            <div class="component-example center">
+                                <ul class="dcoe--list--unordered">
+                                    <li class="dcoe--list__item">List Item 01</li>
+                                    <li class="dcoe--list__item">List Item 02
+                                        <ul class="dcoe--list--nested">
+                                            <li class="dcoe--list__item">Second Level List Item 01</li>
+                                            <li class="dcoe--list__item">Second Level List Item 02</li>
+                                            <li class="dcoe--list__item">Second Level List Item 03
+
+                                                <ul class="dcoe--list--nested">
+                                                    <li class="dcoe--list__item">Third Level List Item 01</li>
+                                                    <li class="dcoe--list__item">Third Level List Item 02</li>
+                                                    <li class="dcoe--list__item">Third Level List Item 03</li>
+                                                </ul>
+
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dcoe--list__item">List Item 03</li>
+                                    <li class="dcoe--list__item">List Item 04</li>
+                                </ul>
+                            </div>
+
+                            <div class="component-fiddle">
+                                <script async src="//jsfiddle.net/peterwilmshurst/c1d0j5qt/7/embed/html,css/"></script>
+                            </div>
+
+
+                            <h2>Inline List</h2>
+
+                            <div class="component-example center">
+                                <ul class="dcoe--list--inline">
+                                    <li class="dcoe--list__item">List Item 01</li>
+                                    <li class="dcoe--list__item">List Item 02</li>
+                                    <li class="dcoe--list__item">List Item 03</li>
+                                </ul>
+                            </div>
+
+                            <div class="component-fiddle last">
+                                <script async src="//jsfiddle.net/peterwilmshurst/oLj6fksz/embed/html,css/"></script>
+                            </div>
                         </div>
+
                         <div class="tab-pane fade" id="usage" role="tabpanel" aria-labelledby="usage-tab">Usage</div>
                         <div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="style-tab">Style</div>
                     </div>
@@ -148,70 +212,3 @@
 </body>
 
 </html>
-
-<div class="content">
-        <div class="container">
-
-            <div class="text">
-
-                <h1>Embed</h1>
-                <p>Create responsive video or slideshow embeds based on the width of the parent by creating an
-                    intrinsic ratio that scales on any device.</p>
-
-                <h2>About</h2>
-                <p>Rules are directly applied to <kbd>iframe</kbd>, <kbd>embed</kbd>, <kbd>video</kbd> and
-                    <kbd>object</kbd> elements; optionally use an explicit descendant class
-                    <kbd>.embed-responsive-item</kbd> when you want to match the styling for other attributes.
-                </p>
-
-                <h2>Example</h2>
-                <p>Wrap any embed like an iframe in a parent element with .embed-responsive and an aspect ratio.
-                    The <kbd>.embed-responsive-item</kbd> isn’t strictly required, but we encourage it.</p>
-
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FvVbuVqb2UY"
-                        allowfullscreen></iframe>
-                </div>
-
-                <h2>Code Snippet</h2>
-
-                <section class="code-clipboard">
-                    <pre>
-            <code class="language-html">
-                &lt;div class="embed-responsive embed-responsive-16by9">
-                    &lt;iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen>&lt;/iframe>
-                &lt;/div>
-            </code>
-        </pre>
-                </section>
-
-                <h2>Aspect ratios</h2>
-                <p>Aspect ratios can be customized with modifier classes.</p>
-
-                <section class="code-clipboard">
-                    <pre>
-            <code class="language-html">
-                    &lt;!-- 21:9 aspect ratio -->
-                    &lt;div class="embed-responsive embed-responsive-21by9">
-                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
-                    &lt;/div>
-      
-                    &lt;!-- 16:9 aspect ratio -->
-                    &lt;div class="embed-responsive embed-responsive-16by9">
-                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
-                    &lt;/div>
-      
-                    &lt;!-- 4:3 aspect ratio -->
-                    &lt;div class="embed-responsive embed-responsive-4by3">
-                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
-                    &lt;/div>
-      
-                    &lt;!-- 1:1 aspect ratio -->
-                    &lt;div class="embed-responsive embed-responsive-1by1">
-                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
-                    &lt;/div>
-
-                    </div>
-  
-        </div>
-    </div>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="341" height="163" viewBox="0 0 341 163">
+  <g id="Group_4424" data-name="Group 4424" transform="translate(-388 -35094)">
+    <rect id="Rectangle_403" data-name="Rectangle 403" width="163" height="163" transform="translate(388 35094)" fill="#dee3eb"/>
+    <rect id="Rectangle_404" data-name="Rectangle 404" width="163" height="163" transform="translate(566 35094)" fill="#dee3eb"/>
+    <rect id="Rectangle_405" data-name="Rectangle 405" width="163" height="163" transform="translate(566 35094)" fill="#003a5d"/>
+    <rect id="Rectangle_406" data-name="Rectangle 406" width="83" height="83" transform="translate(428 35134)" fill="#003a5d"/>
+    <g id="Group_4220" data-name="Group 4220" transform="translate(0 10384)">
+      <g id="Group_4214" data-name="Group 4214" transform="translate(429.194 24838.82) rotate(135)">
+        <line id="Line_301" data-name="Line 301" x2="21.931" transform="translate(0 4.669)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1" data-name="Polygon 1" d="M4.669,0,9.339,8.56H0Z" transform="translate(27.379) rotate(90)" fill="#333"/>
+      </g>
+      <g id="Group_4215" data-name="Group 4215" transform="translate(510.625 24744.182) rotate(-45)">
+        <line id="Line_301-2" data-name="Line 301" x2="21.931" transform="translate(0 4.669)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1-2" data-name="Polygon 1" d="M4.669,0,9.339,8.56H0Z" transform="translate(27.379) rotate(90)" fill="#333"/>
+      </g>
+      <g id="Group_4216" data-name="Group 4216" transform="translate(422.59 24750.785) rotate(-135)">
+        <line id="Line_301-3" data-name="Line 301" x2="21.931" transform="translate(0 4.669)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1-3" data-name="Polygon 1" d="M4.669,0,9.339,8.56H0Z" transform="translate(27.379) rotate(90)" fill="#333"/>
+      </g>
+      <g id="Group_4217" data-name="Group 4217" transform="translate(517.229 24832.217) rotate(45)">
+        <line id="Line_301-4" data-name="Line 301" x2="21.931" transform="translate(0 4.669)" fill="none" stroke="#333" stroke-width="4"/>
+        <path id="Polygon_1-4" data-name="Polygon 1" d="M4.669,0,9.339,8.56H0Z" transform="translate(27.379) rotate(90)" fill="#333"/>
+      </g>
+    </g>
+  </g>
+</svg>

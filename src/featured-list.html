@@ -76,7 +76,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-3">
-                        <ul class="components-nav">
+                    <ul class="components-nav">
                         <li><a href="./breadcrumb.html">Breadcrumb</a></li>
                         <li><a href="./banner.html">Banner</a></li>
                         <li><a href="./carousel.html">Carousel</a></li>
@@ -94,9 +94,9 @@
 
                 <div class="col-9 page-content">
 
-                        <h1>Embed</h1>
-                        <p>Create responsive video or slideshow embeds based on the width of the parent by creating an
-                            intrinsic ratio that scales on any device.</p>
+
+                    <h1>Featured List</h1>
+                    <p>Lists consist of related content grouped together and organized vertically.</p>
 
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
@@ -113,18 +113,68 @@
                         </li>
                     </ul>
 
-
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="code" role="tabpanel" aria-labelledby="code-tab">
 
+
                             <div class="component-example">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FvVbuVqb2UY"
-                                            allowfullscreen></iframe>
+
+                                <div class="media dark">
+                                    <img src="./img/featured-list/featured_list-02@2x.jpg" alt="Featured List 01"
+                                        width="128" height="128">
+                                    <div class="media-body">
+                                        <h4>Featured List Item 01</h4>
+                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                            sollicitudin. Cras purus odio,
+                                            vestibulum in vulputate at, tempus viverra turpis.</p>
                                     </div>
                                 </div>
 
+                                <div class="media">
+                                    <a class="" href="#">
+                                        <img class="align-self-center" src="./img/featured-list/featured_list-01@2x.jpg"
+                                            alt="Featured List 02" width="128" height="128">
+                                    </a>
+                                    <div class="media-body">
+                                        <h4>Featured List Item 02</h4>
+                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+                                            ante sollicitudin. Cras purus
+                                            odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                            condimentum nunc ac nisi vulputate
+                                            fringilla. Donec lacinia congue felis in faucibus.</p>
+                                    </div>
+                                </div>
+
+                                <div class="media">
+                                    <img src="./img/featured-list/featured_list-02@2x.jpg" alt="Featured List 03"
+                                        width="128" height="128">
+                                    <div class="media-body">
+                                        <h4>Featured List Item 03</h4>
+                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                            sollicitudin. Cras purus odio,
+                                            vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                                            nisi vulputate fringilla. Donec
+                                            lacinia congue felis in faucibus.</p>
+
+                                        <div class="media">
+                                            <a class="" href="#">
+                                                <img class="align-self-center"
+                                                    src="./img/featured-list/featured_list-01@2x.jpg"
+                                                    alt="Featured List 04" width="128" height="128">
+                                            </a>
+                                            <div class="media-body">
+                                                <h4>Featured List Item 04</h4>
+                                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                                                    scelerisque
+                                                    ante sollicitudin. Cras purus
+                                                    odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
                         <div class="tab-pane fade" id="usage" role="tabpanel" aria-labelledby="usage-tab">Usage</div>
                         <div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="style-tab">Style</div>
                     </div>
@@ -148,70 +198,3 @@
 </body>
 
 </html>
-
-<div class="content">
-        <div class="container">
-
-            <div class="text">
-
-                <h1>Embed</h1>
-                <p>Create responsive video or slideshow embeds based on the width of the parent by creating an
-                    intrinsic ratio that scales on any device.</p>
-
-                <h2>About</h2>
-                <p>Rules are directly applied to <kbd>iframe</kbd>, <kbd>embed</kbd>, <kbd>video</kbd> and
-                    <kbd>object</kbd> elements; optionally use an explicit descendant class
-                    <kbd>.embed-responsive-item</kbd> when you want to match the styling for other attributes.
-                </p>
-
-                <h2>Example</h2>
-                <p>Wrap any embed like an iframe in a parent element with .embed-responsive and an aspect ratio.
-                    The <kbd>.embed-responsive-item</kbd> isn’t strictly required, but we encourage it.</p>
-
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FvVbuVqb2UY"
-                        allowfullscreen></iframe>
-                </div>
-
-                <h2>Code Snippet</h2>
-
-                <section class="code-clipboard">
-                    <pre>
-            <code class="language-html">
-                &lt;div class="embed-responsive embed-responsive-16by9">
-                    &lt;iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen>&lt;/iframe>
-                &lt;/div>
-            </code>
-        </pre>
-                </section>
-
-                <h2>Aspect ratios</h2>
-                <p>Aspect ratios can be customized with modifier classes.</p>
-
-                <section class="code-clipboard">
-                    <pre>
-            <code class="language-html">
-                    &lt;!-- 21:9 aspect ratio -->
-                    &lt;div class="embed-responsive embed-responsive-21by9">
-                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
-                    &lt;/div>
-      
-                    &lt;!-- 16:9 aspect ratio -->
-                    &lt;div class="embed-responsive embed-responsive-16by9">
-                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
-                    &lt;/div>
-      
-                    &lt;!-- 4:3 aspect ratio -->
-                    &lt;div class="embed-responsive embed-responsive-4by3">
-                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
-                    &lt;/div>
-      
-                    &lt;!-- 1:1 aspect ratio -->
-                    &lt;div class="embed-responsive embed-responsive-1by1">
-                    &lt;iframe class="embed-responsive-item" src="...">&lt;/iframe>
-                    &lt;/div>
-
-                    </div>
-  
-        </div>
-    </div>
