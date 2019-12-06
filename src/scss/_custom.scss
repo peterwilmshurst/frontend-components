@@ -26,7 +26,11 @@
 
 // Helpers
 
-.components-nav, .page-content {
+.fwb {
+    margin-bottom: 0;
+}
+
+.page-nav, .page-content {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -285,5 +289,24 @@ header {
         background-image: url('../img/dcoe/content-and-visuals-desktop.jpg');
         background-image: -webkit-image-set(url(../img/dcoe/content-and-visuals-desktop.jpg) 1x,
                 url(../img/dcoe/content-and-visuals-desktop@2x.jpg) 2x);
+    }
+}
+
+
+.dcoe-home {
+    background-image: url('../img/dcoe/digital-center-of-excellence-mobile.jpg');
+    background-image: -webkit-image-set(url(../img/dcoe/digital-center-of-excellence-mobile.jpg) 1x,
+            url(../img/dcoe/digital-center-of-excellence@2x.jpg) 2x);
+
+    @include media-breakpoint-up(sm) {
+        background-image: url('../img/dcoe/digital-center-of-excellence-tablet.jpg');
+        background-image: -webkit-image-set(url(../img/dcoe/digital-center-of-excellence-tablet.jpg) 1x,
+                url(../img/dcoe/digital-center-of-excellence-tablet@2x.jpg) 2x);
+    }
+
+    @include media-breakpoint-up(md) {
+        background-image: url('../img/dcoe/digital-center-of-excellence-desktop.jpg');
+        background-image: -webkit-image-set(url(../img/dcoe/digital-center-of-excellence.jpg) 1x,
+                url(../img/dcoe/digital-center-of-excellence@2x.jpg) 2x);
     }
 }
