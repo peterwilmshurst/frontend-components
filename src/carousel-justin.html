@@ -43,16 +43,18 @@
     </header>
 
     <nav class="side-nav">
-        <div class="logo">
-            <a href="/"><img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence" height="64px"></a>
-        </div>
-        <ul>
-            <li><a href="#">Coming Soon ...</a></li>
-        </ul>
-    </nav>
+            <div class="logo">
+                <a href="/"><img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence" height="64px"></a>
+            </div>
+            <ul>
+                <li><a href="#">Coming Soon ...</a></li>
+            </ul>
+        </nav>
 
     <div class="content">
         <div class="container-fluid">
+
+
             <!-- Carousel -->
             <div id="carouselExampleBanner" class="carousel slide" data-ride="carousel">
 
@@ -166,74 +168,116 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+
             <!-- Carousel End -->
+
         </div>
 
         <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <ul class="page-nav">
-                        <li><a href="./breadcrumb.html">Breadcrumb</a></li>
-                        <li><a href="./banner.html">Banner</a></li>
-                        <li><a href="./carousel.html">Carousel</a></li>
-                        <li><a href="./cards.html">Cards</a></li>
-                        <li><a href="./embed.html">Embed</a></li>
-                        <li><a href="./form.html">Form</a></li>
-                        <li><a href="./modal.html">Modal</a></li>
-                        <li><a href="./button.html">Button</a></li>
-                        <li><a href="./link.html">Link</a></li>
-                        <li><a href="./list.html">List</a></li>
-                        <li><a href="./featured-list.html">Featured List</a></li>
-                        <li><a href="./table.html">Table</a></li>
-                    </ul>
-                </div>
 
-                <div class="col-9 page-content">
-
-                    <h1>Carousel</h1>
-                    <p>The carousel component is a slideshow for cycling through a series of content, built with CSS 3D
-                        transforms and a bit of JavaScript. It works with a series of images, text, or other components
-                        within this library. It also includes support for previous/next controls and indicators.</p>
-                    <p>The example above incorporates the <a href="./banner.html">Banner component</a> but other
-                        components can also be used.</p>
+            <div class="text">
+                <h1>Carousel</h1>
+                <p>The carousel component is a slideshow for cycling through a series of content, built with CSS 3D
+                    transforms and a bit of JavaScript. It works with a series of images, text, or other components
+                    within this library. It also includes support for previous/next controls and indicators.</p>
+                <p>The example above incorporates the <a href="./banner.html">Banner component</a> but the <a
+                        href="./card.html">Card component</a> can also be used (see below).</p>
+            </div>
 
 
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="code-tab" data-toggle="tab" href="#code" role="tab"
-                                aria-controls="code" aria-selected="true">Code</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="usage-tab" data-toggle="tab" href="#usage" role="tab"
-                                aria-controls="usage" aria-selected="false">Usage</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="style-tab" data-toggle="tab" href="#style" role="tab"
-                                aria-controls="style" aria-selected="false">Style</a>
-                        </li>
-                    </ul>
+            <h2>Code Snippet</h2>
 
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="code" role="tabpanel" aria-labelledby="code-tab">
-                            <div class="component-fiddle">
-                                <script async src="//jsfiddle.net/peterwilmshurst/tzdepyc8/embed/html/"></script>
+            <section class="code-clipboard">
+
+                <pre>
+    <code class="language-html">
+
+            &lt;div id="uniqueIdentifier" class="carousel slide" data-ride="carousel">
+                &lt;div class="carousel-inner">
+                    &lt;div class="carousel-item active">
+                        <kbd>Add slide content here ...</kbd>
+                    &lt;/div>
+                    &lt;div class="carousel-item">
+                        <kbd>Add slide content here ...</kbd>
+                    &lt;/div>
+                    &lt;div class="carousel-item">
+                        <kbd>Add slide content here ...</kbd>
+                    &lt;/div>
+                &lt;/div>
+                
+                &lt;a class="carousel-control-prev" href="#uniqueIdentifier" role="button" data-slide="prev">
+                    &lt;span class="carousel-control-prev-icon" aria-hidden="true">&lt;/span>
+                    &lt;span class="sr-only">Previous&lt;/span>
+                &lt;/a>
+                
+                &lt;a class="carousel-control-next" href="#uniqueIdentifier" role="button" data-slide="next">
+                    &lt;span class="carousel-control-next-icon" aria-hidden="true">&lt;/span>
+                    &lt;span class="sr-only">Next&lt;/span>
+                &lt;/a>
+            &lt;/div>
+
+    </code>
+</pre>
+            </section>
+
+
+
+
+            <div id="carouselExampleCard" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="media light">
+                            <img src="./img/card/featured_list-01@2x.jpg" alt="Featured List 01" width="128"
+                                height="128">
+                            <div class="media-body">
+                                <h3>Stay Dry and Comfortable</h3>
+                                <p>Attends offers a full portfolio of solutions to protect against bladder and bowel
+                                    leaks. No
+                                    matter
+                                    your severity, size or preference, we have a product to meet your needs.</p>
                             </div>
 
                         </div>
 
-                        <div class="tab-pane fade" id="usage" role="tabpanel" aria-labelledby="usage-tab">Usage</div>
-                        <div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="style-tab">Style</div>
                     </div>
 
+                    <div class="carousel-item">
+                        <div class="media dark">
+                            <img src="./img/card/featured_list-01@2x.jpg" alt="Featured List 01" width="128"
+                                height="128">
+                            <div class="media-body">
+                                <h3>Stay Dry and Comfortable</h3>
+                                <p>Attends offers a full portfolio of solutions to protect against bladder and bowel
+                                    leaks. No
+                                    matter
+                                    your severity, size or preference, we have a product to meet your needs.</p>
+                            </div>
 
+                        </div>
 
-
+                    </div>
 
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleCard" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCard" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
 
 
+
+
+
         </div>
+    </div>
+
+
     </div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
