@@ -89,52 +89,42 @@
                     <h2>Understanding layout</h2>
                     <p>Digital Center of Excellence (DCoE) layouts encourage consistency across platforms, environments
                         and screen sizes by using uniform elements and spacing.</p>
-                    <section class="cards-vertical-three">
-                        <div class="wrapper">
-                            <div class="card">
-                                <div class="image">
-                                    <img src="./img/dcoe/predictable.svg" alt="Predictable">
-                                </div>
-                                <!-- text block component -->
-                                <div class="copy">
-                                    <div class="text-block">
-                                        <h3>Predictable</h3>
-                                        <p>User Interface’s should use intuitive
-                                            and predictable layouts, with
-                                            consistent interactive areas and
-                                            spatial organization.</p>
-                                    </div>
-                                </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="image">
+                                <img src="./img/dcoe/predictable.svg" class="img-fluid" alt="Predictable">
                             </div>
-                            <div class="card">
-                                <div class="image">
-                                    <img src="./img/dcoe/consistent.svg" alt="Consistent">
-                                </div>
-                                <!-- text block component -->
-                                <div class="copy">
-                                    <div class="text-block">
-                                        <h3>Consistent</h3>
-                                        <p>Layouts should use a consistent
-                                            grid with margins and padding.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card last">
-                                <div class="image">
-                                    <img src="./img/dcoe/responsive.svg" alt="Responsive">
-                                </div>
-                                <!-- text block component -->
-                                <div class="copy">
-                                    <div class="text-block">
-                                        <h3>Responsive</h3>
-                                        <p>Layouts are adaptive and react to
-                                            input from the user, device and
-                                            screen elements.</p>
-                                    </div>
-                                </div>
-                            </div>
+
+                            <h3>Predictable</h3>
+                            <p>User Interface’s should use intuitive
+                                and predictable layouts, with
+                                consistent interactive areas and
+                                spatial organization.</p>
                         </div>
-                    </section>
+
+
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/consistent.svg" class="img-fluid" alt="Consistent">
+
+                            <h3>Consistent</h3>
+                            <p>Layouts should use a consistent
+                                grid with margins and padding.</p>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/responsive.svg" class="img-fluid" alt="Responsive">
+
+                            <h3>Responsive</h3>
+                            <p>Layouts are adaptive and react to
+                                input from the user, device and
+                                screen elements.</p>
+                        </div>
+                    </div>
+
+
+
                     <h3>Structure</h3>
                     <p>DCoE layouts are visually balanced and can be used to create consistent spacing with typography
                         and other page elements. Most measurements apply to a 16px based grid whilst smaller components,
@@ -153,15 +143,47 @@
                         of predetermined screen sizes) at which a screen is viewed, whether it’s a breakpoint for
                         mobile,
                         tablet, or another size.</p>
+
+<div class="row">
+    <div class="col-md-6">
+            <img src="./img/dcoe/columns-four-columns.svg" alt="On mobile, at a breakpoint of 414px, this layout grid uses 4 columns." class="img-fluid">
+    </div>
+    <div class="col-md-6">
+            <img src="./img/dcoe/columns-eight-columns.svg" alt="On tablet, at a breakpoint of 1024px, this layout grid uses 8 columns." class="img-fluid">
+    </div>
+</div>
+
                     <h3>Gutters</h3>
                     <p>Gutters are the spaces between columns. They help separate content. Gutter widths are fixed
                         values at each breakpoint range. To better adapt to the screen, gutter width can change at
                         different breakpoints. Wider gutters are more appropriate for larger screens, as they create
                         more whitespace between columns.</p>
+
+
+                        <div class="row">
+                                <div class="col-md-6">
+                                        <img src="./img/dcoe/gutters-four-columns.svg" alt="On mobile, at a breakpoint of 414px, this layout grid uses standard 32px gutters." class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                        <img src="./img/dcoe/gutters-eight-columns.svg" alt="On tablet, at a breakpoint of 1024px, this layout grid uses standard 32px gutters." class="img-fluid">
+                                </div>
+                            </div>
+
+
                     <h3>Margins</h3>
                     <p>Margins are the space between the content and the edge of the screen. To better adapt to the
                         screen, the margin width can change at different breakpoints. Wider margins are more appropriate
                         for larger screens, as they create more whitespace around the perimeter of the content.</p>
+
+                        <div class="row">
+                                <div class="col-md-6">
+                                        <img src="./img/dcoe/margins-four-columns.svg" alt="On mobile, at a breakpoint of 576px." class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                        <img src="./img/dcoe/margins-eight-columns.svg" alt="On a small tablet, at a breakpoint of 1024px, the margins are wider to increase the space around the content." class="img-fluid">
+                                </div>
+                            </div>
+
 
                     <h2 id="theme">Themes</h2>
                     <p>Themes are used to customize component styles to fit the specific aesthetic of a brand or
