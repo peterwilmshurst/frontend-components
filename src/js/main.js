@@ -11,11 +11,11 @@ window.addEventListener("scroll", function () {
 
 });
 
-var hamburger = document.querySelector('#hamburger');
+// var hamburger = document.querySelector('#hamburger');
 
-hamburger.addEventListener('click', function () {
-    body.classList.toggle("nav-open")
-});
+// hamburger.addEventListener('click', function () {
+//     body.classList.toggle("nav-open")
+// });
 
 // // Vanilla JavaScript Scroll to Anchor
 // // @ https://perishablepress.com/vanilla-javascript-scroll-anchor/
