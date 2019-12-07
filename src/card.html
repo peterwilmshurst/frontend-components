@@ -43,131 +43,108 @@
     </header>
 
     <nav class="side-nav">
-            <div class="logo">
-                <a href="/"><img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence" height="64px"></a>
-            </div>
-            <ul>
-                <li><a href="#">Coming Soon ...</a></li>
-            </ul>
-        </nav>
+        <div class="logo">
+            <a href="/"><img src="./img/dcoe-logo.svg" alt="Digital Center of Excellence" height="64px"></a>
+        </div>
+        <ul>
+            <li><a href="#">Coming Soon ...</a></li>
+        </ul>
+    </nav>
 
     <div class="content">
         <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <ul class="page-nav">
+                        <li><a href="./breadcrumb.html">Breadcrumb</a></li>
+                        <li><a href="./banner.html">Banner</a></li>
+                        <li><a href="./carousel.html">Carousel</a></li>
+                        <li><a href="./card.html">Card</a></li>
+                        <li><a href="./embed.html">Embed</a></li>
+                        <li><a href="./form.html">Form</a></li>
+                        <li><a href="./modal.html">Modal</a></li>
+                        <li><a href="./button.html">Button</a></li>
+                        <li><a href="./link.html">Link</a></li>
+                        <li><a href="./list.html">List</a></li>
+                        <li><a href="./featured-list.html">Featured List</a></li>
+                        <li><a href="./table.html">Table</a></li>
+                    </ul>
+                </div>
 
-            <!-- Card One -->
+                <div class="col-9 page-content">
 
-            <section class="cards-vertical-three">
+                    <h1>Card</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa asperiores recusandae dicta
+                        consequuntur laudantium ullam, doloremque tempore, sed eligendi, id voluptatum dolore. Quae
+                        officiis magnam asperiores! Est, vero asperiores?</p>
 
-                <div class="wrapper">
-                    <div class="card">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="code-tab" data-toggle="tab" href="#code" role="tab"
+                                aria-controls="code" aria-selected="true">Code</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="usage-tab" data-toggle="tab" href="#usage" role="tab"
+                                aria-controls="usage" aria-selected="false">Usage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="style-tab" data-toggle="tab" href="#style" role="tab"
+                                aria-controls="style" aria-selected="false">Style</a>
+                        </li>
+                    </ul>
 
-                        <a href="#">
-                            <div class="image">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="code" role="tabpanel" aria-labelledby="code-tab">
 
-                                <img src="./img/card/demo_card-01.jpg" alt="Cards Imageholder">
+                            <div class="component-example center">
 
-                            </div>
-                            <!-- text block component -->
+                                <div class="col-md-6">
+                                    <div class="dcoe--card">
 
-                            <div class="copy">
-                                <div class="text-block blue-bg white-fg">
-                                    <h3>You&apos;re not Alone</h3>
-                                    <p>Managing incontinence while maintaining your lifestyle can be challenging. Don't
-                                        go
-                                        through it alone, we've developed resources and support to help you along the
-                                        way.</p>
+                                        <a href="#">
+                                            <div class="image">
 
-                                    <!-- button component -->
-                                    <a href="#" target="_blank" class="btn btn-secondary" role="button">Call to
-                                        action</a>
+                                                <img src="./img/card/demo_card-01.jpg" alt="Cards Imageholder">
 
+                                            </div>
+                                            <!-- text block component -->
+
+                                            <div class="copy">
+                                                <div class="text-block blue-bg white-fg">
+                                                    <h3>You&apos;re not Alone</h3>
+                                                    <p>Managing incontinence while maintaining your lifestyle can be
+                                                        challenging. Don't
+                                                        go
+                                                        through it alone, we've developed resources and support to
+                                                        help you along the
+                                                        way.</p>
+
+                                                    <!-- button component -->
+                                                    <a href="#" target="_blank" class="btn btn-secondary"
+                                                        role="button">Call to
+                                                        action</a>
+
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="card">
-                        <div class="image">
-
-                            <img src="./img/card/demo_card-02.jpg" alt="Cards Imageholder">
-
-                        </div>
-                        <!-- text block component -->
-
-                        <div class="copy">
-                            <div class="text-block white-bg blue-fg">
-                                <h3>Stay Comfortable</h3>
-                                <p>Attends offers a full portfolio of solutions to protect against bladder and bowel
-                                    leaks. No
-                                    matter your severity, size or preference, we have a product to meet your needs.</p>
-
-                                <!-- button component -->
-                                <a href="#" target="_blank" class="btn btn-primary" role="button">Call to action</a>
 
                             </div>
-                        </div>
 
-                    </div>
-
-                    <div class="card last">
-
-
-                        <div class="image">
-
-                            <img src="./img/card/demo_card-03@2x.jpg" alt="Cards Imageholder">
-
-                        </div>
-                        <!-- text block component -->
-
-                        <div class="copy">
-                            <div class="text-block blue-grad-bg white-fg">
-                                <h3>Caring for Others</h3>
-                                <p>You're caring for a loved one while juggling your own responsibilities. We want to
-                                    make your
-                                    life easier with a few resources and tools that provide a little help along the way.
-                                </p>
-
-                                <!-- button component -->
-                                <a href="#" target="_blank" class="btn btn-secondary" role="button">Call to action</a>
-
+                            <div class="component-fiddle">
+                                <script async src="//jsfiddle.net/peterwilmshurst/Lj4w6o9q/embed/html,css/"></script>
                             </div>
+
                         </div>
-
+                        <div class="tab-pane fade" id="usage" role="tabpanel" aria-labelledby="usage-tab">Usage</div>
+                        <div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="style-tab">Style</div>
                     </div>
-                </div>
-            </section>
-
-
-
-
-            <!-- Card Two - we can use a BS Media Object for this. Need to work this into the architecture in the best way possible -->
-            <div class="container">
-                <div class="media light">
-                    <img src="./img/card/featured_list-01@2x.jpg" alt="Featured List 01" width="128" height="128">
-                    <div class="media-body">
-                        <h3>Stay Dry and Comfortable</h3>
-                        <p>Attends offers a full portfolio of solutions to protect against bladder and bowel leaks. No
-                            matter
-                            your severity, size or preference, we have a product to meet your needs.</p>
-                    </div>
-
-                </div>
-                <div class="media dark">
-                    <img src="./img/card/featured_list-01@2x.jpg" alt="Featured List 01" width="128" height="128">
-                    <div class="media-body">
-                        <h3>Stay Dry and Comfortable</h3>
-                        <p>Attends offers a full portfolio of solutions to protect against bladder and bowel leaks. No
-                            matter
-                            your severity, size or preference, we have a product to meet your needs.</p>
-                    </div>
-
                 </div>
             </div>
-
-
         </div>
     </div>
-
+    </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
         integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">

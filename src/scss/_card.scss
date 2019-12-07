@@ -5,218 +5,97 @@
 | |/ |/ / / / / / / / / /_/ / 
 |__/|__/_/_/_/ /_/ /_/\__,_/  
                               
+Version 2019.1.0
 */
 
+.dcoe--card {
+    .image {
+        order: 1;
 
-/* Cards Vertical Three renders three cards in a row on desktop. When on a tablet device, the layout of the cards alter to 2 in a row and the third underneath taking up 100% width. On a mobile device the cards stack vertically. */
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-.cards-vertical-three {
-    @extend .container;
-    margin-bottom: 2.5rem;
+        @include media-breakpoint-up(md) {
 
-    .wrapper {
-        @include make-row();
-        flex-direction: row;
+            order: inherit;
+            margin-bottom: 0;
+        }
+    }
+
+    .content-area {
+        order: 2;
         display: flex;
+        align-items: stretch;
 
-        .card {
-            @include make-col-ready();
+
+        @include media-breakpoint-up(md) {
+
+            order: inherit;
+        }
+    }
+
+    &.last {
+
+        @include media-breakpoint-only(sm) {
+            margin-bottom: 0;
+        }
+
+
+        @include media-breakpoint-only(md) {
             @include make-col(12);
-
-            @include media-breakpoint-only(sm) {
-                margin-bottom: 2rem;
-            }
+            @include make-row();
 
 
-            @include media-breakpoint-only(md) {
-                @include make-col(6);
-            }
+            margin-top: 2rem;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
 
-            @include media-breakpoint-up(lg) {
-                @include make-col(4);
-            }
 
             .image {
-                order: 1;
 
-                img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
+                @include make-col(6);
 
-                @include media-breakpoint-up(md) {
-
-                    order: inherit;
-                    margin-bottom: 0;
-                }
             }
 
             .content-area {
-                order: 2;
-                display: flex;
-                align-items: stretch;
 
+                @include make-col(6);
 
-                @include media-breakpoint-up(md) {
-
-                    order: inherit;
-                }
-            }
-
-            &.last {
-
-                @include media-breakpoint-only(sm) {
-                    margin-bottom: 0;
-                }
-
-
-                @include media-breakpoint-only(md) {
-                    @include make-col(12);
-                    @include make-row();
-
-
-                    margin-top: 2rem;
-                    margin-left: 0 !important;
-                    margin-right: 0 !important;
-
-
-                    .image {
-
-                        @include make-col(6);
-
-                    }
-
-                    .content-area {
-
-                        @include make-col(6);
-
-                    }
-                }
-            }
-
-            a:not(.btn) {
-                text-decoration: none;
-                color: inherit;
             }
         }
     }
 
+    a:not(.btn) {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+
     /* Text block Component Rules (when inserted into a card component) */
 
-    .content-area {
+    .copy {
         margin: 0;
 
         .text-block {
             border: 2px solid transparent;
+
+            h3 {
+                padding: 0 !important;
+            }
 
 
             &.white-bg {
                 border: 2px solid $light-grey;
             }
 
+            a {
+                margin-top: 0.5rem;
+            }
+
         }
     }
 }
-
-// // Media Object List (we can use this as a card, need to work it into the architecture //
-
-// .media {
-
-//     margin-bottom: 1rem;
-
-//     img {
-//         margin-right: 1rem;
-//     }
-
-//     .media-body {
-
-//         h1,
-//         h2,
-//         h3,
-//         h4,
-//         h5 {
-//             margin: 0;
-//         }
-
-//         .media {
-//             margin-top: 1rem;
-//         }
-//     }
-
-
-//     .media-body {
-//         align-self: center;
-//     }
-
-//     &:hover {
-//         background-color: $brand-primary-light;
-//         cursor: pointer;
-
-//         h1,
-//         h2,
-//         h3,
-//         h4,
-//         h5,
-//         h6,
-//         p,
-//         a {
-//             color: $white;
-//         }
-//     }
-
-//     &.light {
-//         background-color: $white;
-
-//         &:hover {
-//             background-color: $brand-primary-light;
-//             cursor: pointer;
-
-//             h1,
-//             h2,
-//             h3,
-//             h4,
-//             h5,
-//             h6,
-//             p,
-//             a {
-//                 color: $white;
-//             }
-//         }
-//     }
-
-//     &.dark {
-//         background-color: $brand-primary-dark;
-
-//         h1,
-//         h2,
-//         h3,
-//         h4,
-//         h5,
-//         h6,
-//         p,
-//         a {
-//             color: $white;
-//         }
-
-//         &:hover {
-//             background-color: $brand-primary-light;
-//             cursor: pointer;
-
-//             h1,
-//             h2,
-//             h3,
-//             h4,
-//             h5,
-//             h6,
-//             p,
-//             a {
-//                 color: $white;
-//             }
-//         }
-//     }
-
-//     img {
-//         align-self: center;
-//     }
-// }
