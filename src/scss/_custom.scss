@@ -54,6 +54,17 @@ a {
     padding-bottom: 2rem;
 }
 
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+.main-content {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+
 .component-example {
     padding: 2rem 2rem 2.5rem;
 
