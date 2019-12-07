@@ -93,9 +93,9 @@ gulp.task('default', ['serve']);
 gulp.task('deploy', function () {
 
     var conn = vinylFTP.create({
-        host: 'ftp.wilmaproductions.co.uk',
-        user: 'adminftp@127861575651978',
-        password: 'M@ng005356!',
+        host: 'ftp.domtar.digital',
+        user: 'adminftp@224781575704663',
+        password: 'Att3nd5!',
         parallel: 10,
         log: gulpUtil.log
     });
