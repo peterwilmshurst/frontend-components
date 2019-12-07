@@ -1,4 +1,3 @@
-
 /* Footer */
 
 .dcoe--footer {
@@ -147,5 +146,11 @@
                 margin-bottom: inherit;
             }
         }
+    }
+
+    .navbar-brand {
+        width: 200px;
+        height: auto;
+        padding: 1rem 1rem 1rem 0;
     }
 }
