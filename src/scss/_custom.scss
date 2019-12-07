@@ -24,10 +24,59 @@
 // }
 
 
+
+#hamburger {
+    display: none;
+    visibility: hidden;
+}
+
+@include media-breakpoint-down(lg) {
+
+    nav {
+        #hamburger {
+            display: inline-block;
+            visibility: visible;
+        }
+        ul {
+            display: none;
+            visibility: hidden;
+
+            &.opened {
+                display: block;
+                visibility: visible;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100vh;
+                background-color: rgba(0, 0, 0, 0.75);
+
+                li {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    text-transform: uppercase;
+
+                    a {
+                        padding: 2.5rem;
+                        width: 100%;
+                    }
+
+                    &:hover {
+                        background-color: $black;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
 // Helpers
 
 a {
     color: $black;
+
     &:hover {
         color: $green;
     }
@@ -43,25 +92,28 @@ a {
         color: $white;
         padding: 0.5rem;
         margin: 0.5rem 0;
+
         &:focus {
             outline: none;
         }
     }
 }
 
-.page-nav, .page-content {
+.page-nav,
+.page-content {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
 .sticky {
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
-  }
+}
 
 .main-content {
-    padding-top:2rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
@@ -72,6 +124,7 @@ a {
         justify-content: center;
         display: flex;
     }
+
     &.dark {
         background-color: $brand-primary-dark;
     }
@@ -87,7 +140,9 @@ a {
 }
 
 .tab-content {
-    h2,h3{
+
+    h2,
+    h3 {
         padding: 1rem;
     }
 }
@@ -95,6 +150,7 @@ a {
 .select-component {
     a {
         color: inherit;
+
         &:hover {
             text-decoration: none;
         }
@@ -141,7 +197,7 @@ header {
 }
 
 .header-nav {
-    float: right;
+    margin-left: auto;
 
     ul {
         list-style: none;
