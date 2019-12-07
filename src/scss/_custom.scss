@@ -37,6 +37,7 @@
             display: inline-block;
             visibility: visible;
         }
+
         ul {
             display: none;
             visibility: hidden;
@@ -79,6 +80,14 @@ a {
 
     &:hover {
         color: $green;
+    }
+}
+
+
+@include media-breakpoint-down(lg) {
+    .dcoe-logo {
+        padding-top: 1rem;
+        height: 6rem;
     }
 }
 
