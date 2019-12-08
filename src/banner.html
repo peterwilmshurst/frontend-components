@@ -19,14 +19,15 @@
             <div class="row">
 
                 <div class="col-6 col-md-2 offset-md-1 d-flex align-items-center">
-                    <a class="dcoe-logo" href="/"><img src="./img/dcoe-logo-w.svg" alt="Digital Center of Excellence" height="64px"></a>
+                    <a class="dcoe-logo" href="/"><img src="./img/dcoe-logo-w.svg" alt="Digital Center of Excellence"
+                            height="64px"></a>
                 </div>
 
                 <div class="col-6 col-md-8 d-flex align-items-center">
                     <nav class="header-nav">
-                            <a href="#" id="hamburger">
-                                    <i class="fas fa-bars"></i>
-                                </a>
+                        <a href="#" id="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </a>
                         <ul id="menu">
                             <li><a href="./layouts-and-architecture.html">Layouts &amp; Architecture</a></li>
                             <li><a href="./content-and-visuals.html">Content &amp; Visuals</a></li>
@@ -101,11 +102,6 @@
 
 
                     <h1>Banner</h1>
-                    <p>A Banner Component typically embeds an advertisement into a web page. That is, it is used to
-                        attract traffic to a website by linking to the website of the advertiser.</p>
-                    <p>Please see above for an example of the banner component. To view all variations <a
-                            href="./banner-examples.html" target="_blank">click here</a></p>
-
 
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
@@ -129,10 +125,159 @@
                                 <script async src="//jsfiddle.net/peterwilmshurst/1L2n7tqk/1/embed/html,css/"></script>
                             </div>
 
+                            <h3>Custom background image</h3>
+                            <p>Images are added and saved as background images within the css. A desktop, tablet and
+                                mobile version of
+                                each image should be provided. The css below will ensure the correct image is shown on
+                                the relevant
+                                device. Retina versions of each image should also be provided, these will be displayed
+                                on higher
+                                resolution displays.</p>
+
+                            <div class="component-fiddle">
+                                <script async src="//jsfiddle.net/peterwilmshurst/s4g69odf/2/embed/css/"></script>
+                            </div>
+
                         </div>
 
-                        <div class="tab-pane fade" id="usage" role="tabpanel" aria-labelledby="usage-tab">Usage</div>
-                        <div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="style-tab">Style</div>
+                        <div class="tab-pane fade" id="usage" role="tabpanel" aria-labelledby="usage-tab">
+                            <p>A Banner Component typically embeds an advertisement into a web page. That is, it is used
+                                to
+                                attract traffic to a website by linking to the website of the advertiser.</p>
+                            <p>Please see above for an example of the banner component. To view all variations <a
+                                    href="./banner-examples.html" target="_blank">click here</a></p>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="style-tab">
+                            <h3>Colour</h3>
+                            <p>Background colour of text block</p>
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th width="25%" scope="col">Class</th>
+                                        <th width="25%" scope="col">Variable</th>
+                                        <th width="25%" scope="col">Description</th>
+                                        <th width="25%" scope="col">Example</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>.white-bg</td>
+                                        <td>$banner-bg-light</td>
+                                        <td>Light background colour behind text block</td>
+                                        <td><a href="./banner-examples.html#option-1" target="_blank">Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.blue-bg</td>
+                                        <td>$banner-bg-dark</td>
+                                        <td>Dark background colour behind text block</td>
+                                        <td><a href="./banner-examples.html#option-2" target="_blank">Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.blue-grad-bg</td>
+                                        <td>$banner-bg-dark-grad</td>
+                                        <td>Dark gradient background colour behind text block</td>
+                                        <td><a href="./banner-examples.html#option-3" target="_blank">Link</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                            <h3>Transparency</h3>
+                            <p>Transparency of the text block.</p>
+
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th width="33%" scope="col">Class</th>
+                                        <th width="33%" scope="col">Description</th>
+                                        <th width="33%" scope="col">Example</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>.fade-25</td>
+                                        <td>25% transparent background</td>
+                                        <td><a href="./banner-examples.html#option-1" target="_blank">Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.fade-50</td>
+                                        <td>50% transparent background</td>
+                                        <td><a href="./banner-examples.html#option-2" target="_blank">Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.fade-75</td>
+                                        <td>75% transparent background</td>
+                                        <td><a href="./banner-examples.html#option-3" target="_blank">Link</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                            <h3>Position</h3>
+                            </p>The text-block, if included, can be positioned by amending this class. The options are
+                            listed below. Simply remove the content-area if no text is needed.
+                            Please note: By default, content area will align vertically bottom on a mobile device unless
+                            the mobile-top class is used.</p>
+
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th width="25%" scope="col">Class</th>
+                                        <th width="25%" scope="col">Description</th>
+                                        <th width="25%" scope="col">Example</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>.left-33</td>
+                                        <td>33% width of parent container, left-hand side</td>
+                                        <td><a href="./banner-examples.html#option-1" target="_blank">Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.left-50</td>
+                                        <td>50% width of parent container, left-hand side</td>
+                                        <td><a href="./banner-examples.html#option-2" target="_blank">Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.center-33</td>
+                                        <td>33% width of parent container, center</td>
+                                        <td><a href="./banner-examples.html#option-3" target="_blank">Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.center-50</td>
+                                        <td>50% width of parent container, center</td>
+                                        <td><a href="./banner-examples.html#option-4" target="_blank">Link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.center-100</td>
+                                        <td>100% width of parent container, center</td>
+                                        <td><a href="./banner-examples.html#option-5" target="_blank">Link</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>.right-33</td>
+                                        <td>33% width of parent container, right-hand side</td>
+                                        <td><a href="./banner-examples.html#option-6" target="_blank">Link</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>.right-50</td>
+                                        <td>50% width of parent container, right-hand side</td>
+                                        <td><a href="./banner-examples.html#option-7" target="_blank">Link</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>.mobile-top</td>
+                                        <td>By default the content area will align vertically bottom on a mobile device
+                                            unless this class is used.</td>
+                                        <td><a href="./banner-examples.html#option-7" target="_blank">Link</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
                     </div>
                 </div>
             </div>
