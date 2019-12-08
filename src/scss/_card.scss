@@ -71,6 +71,10 @@ Version 2019.1.0
     a:not(.btn) {
         text-decoration: none;
         color: inherit;
+        &:hover {
+            text-decoration: none;
+            color: inherit;
+        }
     }
 
 
