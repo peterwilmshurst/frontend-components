@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="689" height="375" viewBox="0 0 689 375">
+  <defs>
+    <filter id="Rectangle_218" x="12" y="10" width="432" height="365" filterUnits="userSpaceOnUse">
+      <feOffset dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4431" data-name="Group 4431" transform="translate(-40 -8817)">
+    <rect id="Rectangle_240" data-name="Rectangle 240" width="689" height="369" transform="translate(40 8817)" fill="#dee3eb"/>
+    <text id="_12px" data-name="12px" transform="translate(548 8943)" fill="#24a249" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">12px</tspan></text>
+    <text id="_4px" data-name="4px" transform="translate(598 8894)" fill="#76236c" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">4px</tspan></text>
+    <text id="_4px-2" data-name="4px" transform="translate(598 8969)" fill="#76236c" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">4px</tspan></text>
+    <text id="_40px" data-name="40px" transform="translate(511 8916)" fill="#333" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">40px</tspan></text>
+    <text id="_40px-2" data-name="40px" transform="translate(511 8993)" fill="#333" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">40px</tspan></text>
+    <text id="_40px-3" data-name="40px" transform="translate(511 9068)" fill="#333" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">40px</tspan></text>
+    <text id="_40px-4" data-name="40px" transform="translate(511 9144)" fill="#333" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">40px</tspan></text>
+    <text id="_4px-3" data-name="4px" transform="translate(598 9045)" fill="#76236c" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">4px</tspan></text>
+    <text id="_4px-4" data-name="4px" transform="translate(598 9121)" fill="#76236c" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">4px</tspan></text>
+    <text id="_12px-2" data-name="12px" transform="translate(548 9018)" fill="#24a249" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">12px</tspan></text>
+    <text id="_12px-3" data-name="12px" transform="translate(548 9094)" fill="#24a249" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">12px</tspan></text>
+    <g id="Group_3938" data-name="Group 3938" transform="translate(2643 1667)">
+      <g transform="matrix(1, 0, 0, 1, -2603, 7150)" filter="url(#Rectangle_218)">
+        <rect id="Rectangle_218-2" data-name="Rectangle 218" width="414" height="347" transform="translate(21 22)" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="380" height="40" rx="3" transform="translate(-2565 7299.5)" fill="#fff" stroke="#76777a" stroke-width="1"/>
+      <text id="First_Name_" data-name="First Name *" transform="translate(-2549.5 7326)" fill="#76777a" font-size="16" font-family="SourceSansPro-Light, Source Sans Pro" font-weight="300"><tspan x="0" y="0">First Name *</tspan></text>
+      <text id="First_Name_2" data-name="First Name *" transform="translate(-2564.5 7293.203)" fill="#333" font-size="20" font-family="SourceSansPro-Semibold, Source Sans Pro" font-weight="600"><tspan x="0" y="0">First Name *</tspan></text>
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="380" height="40" rx="3" transform="translate(-2565 7451.5)" fill="#fff" stroke="#76777a" stroke-width="1"/>
+      <text id="Email_" data-name="Email *" transform="translate(-2549.5 7478)" fill="#76777a" font-size="16" font-family="SourceSansPro-Light, Source Sans Pro" font-weight="300"><tspan x="0" y="0">Email *</tspan></text>
+      <text id="Email_2" data-name="Email *" transform="translate(-2564.5 7444.566)" fill="#333" font-size="20" font-family="SourceSansPro-Semibold, Source Sans Pro" font-weight="600"><tspan x="0" y="0">Email *</tspan></text>
+      <rect id="Rectangle_213" data-name="Rectangle 213" width="380" height="40" rx="3" transform="translate(-2565 7375.5)" fill="#fff" stroke="#76777a" stroke-width="1"/>
+      <text id="Last_Name_" data-name="Last Name *" transform="translate(-2549.5 7402)" fill="#76777a" font-size="16" font-family="SourceSansPro-Light, Source Sans Pro" font-weight="300"><tspan x="0" y="0">Last Name *</tspan></text>
+      <text id="Last_Name_2" data-name="Last Name *" transform="translate(-2564.5 7368.203)" fill="#333" font-size="20" font-family="SourceSansPro-Semibold, Source Sans Pro" font-weight="600"><tspan x="0" y="0">Last Name *</tspan></text>
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="380" height="40" rx="3" transform="translate(-2565 7223.5)" fill="#fff" stroke="#76777a" stroke-width="1"/>
+      <text id="Title_" data-name="Title *" transform="translate(-2549.5 7250)" fill="#76777a" font-size="16" font-family="SourceSansPro-Light, Source Sans Pro" font-weight="300"><tspan x="0" y="0">Title *</tspan></text>
+      <text id="Title_2" data-name="Title *" transform="translate(-2564.5 7216.84)" fill="#333" font-size="20" font-family="SourceSansPro-Semibold, Source Sans Pro" font-weight="600"><tspan x="0" y="0">Title *</tspan></text>
+      <line id="Line_1" data-name="Line 1" y1="25.77" transform="translate(-2229.306 7230.5)" fill="none" stroke="#76777a" stroke-miterlimit="10" stroke-width="1.357"/>
+      <path id="Path_79" data-name="Path 79" d="M707.586,1092.187l-5.362-5.362-.85.85,6.212,6.212,6.212-6.212-.85-.85Z" transform="translate(-2915.498 6152.675)" fill="#76777a" stroke="#76777a" stroke-width="1"/>
+      <rect id="Rectangle_229" data-name="Rectangle 229" width="151" height="20" transform="translate(-2413 7296) rotate(180)" fill="#ee5f5b" opacity="0.5"/>
+      <rect id="Rectangle_231" data-name="Rectangle 231" width="151" height="20" transform="translate(-2413 7372) rotate(180)" fill="#ee5f5b" opacity="0.5"/>
+      <rect id="Rectangle_233" data-name="Rectangle 233" width="151" height="20" transform="translate(-2413 7448) rotate(180)" fill="#ee5f5b" opacity="0.5"/>
+      <rect id="Rectangle_245" data-name="Rectangle 245" width="151" height="40" transform="translate(-2139 7492) rotate(180)" fill="#76777a" opacity="0.5"/>
+      <rect id="Rectangle_246" data-name="Rectangle 246" width="151" height="40" transform="translate(-2139 7416) rotate(180)" fill="#76777a" opacity="0.5"/>
+      <rect id="Rectangle_247" data-name="Rectangle 247" width="151" height="40" transform="translate(-2139 7340) rotate(180)" fill="#76777a" opacity="0.5"/>
+      <rect id="Rectangle_248" data-name="Rectangle 248" width="151" height="41" transform="translate(-2139 7264) rotate(180)" fill="#76777a" opacity="0.5"/>
+      <rect id="Rectangle_230" data-name="Rectangle 230" width="332.539" height="12" transform="translate(-2434.452 7264)" fill="#00db33"/>
+      <rect id="Rectangle_241" data-name="Rectangle 241" width="382.364" height="4" transform="translate(-2434.452 7219)" fill="#f478c4"/>
+      <rect id="Rectangle_242" data-name="Rectangle 242" width="382.364" height="4" transform="translate(-2434.452 7296)" fill="#f478c4"/>
+      <rect id="Rectangle_243" data-name="Rectangle 243" width="382.364" height="4" transform="translate(-2434.452 7372)" fill="#f478c4"/>
+      <rect id="Rectangle_244" data-name="Rectangle 244" width="382.364" height="4" transform="translate(-2434.452 7448)" fill="#f478c4"/>
+      <rect id="Rectangle_232" data-name="Rectangle 232" width="332.539" height="12" transform="translate(-2434.452 7340)" fill="#00db33"/>
+      <rect id="Rectangle_234" data-name="Rectangle 234" width="332.539" height="12" transform="translate(-2434.452 7416)" fill="#00db33"/>
+      <rect id="Rectangle_235" data-name="Rectangle 235" width="151" height="20" transform="translate(-2414 7219) rotate(180)" fill="#ee5f5b" opacity="0.5"/>
+    </g>
+    <text id="_20px" data-name="20px" transform="translate(231 8881)" fill="#ee5f5b" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">20px</tspan></text>
+    <text id="_20px-2" data-name="20px" transform="translate(231 8959)" fill="#ee5f5b" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">20px</tspan></text>
+    <text id="_20px-3" data-name="20px" transform="translate(231 9035)" fill="#ee5f5b" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">20px</tspan></text>
+    <text id="_20px-4" data-name="20px" transform="translate(231 9111)" fill="#ee5f5b" font-size="16" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">20px</tspan></text>
+  </g>
+</svg>
