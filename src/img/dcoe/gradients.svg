@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="704.973" height="256.919" viewBox="0 0 704.973 256.919">
+  <defs>
+    <filter id="Rectangle_10" x="0" y="0" width="351.335" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#003a5d"/>
+      <stop offset="1" stop-color="#0071ce"/>
+    </linearGradient>
+    <filter id="Rectangle_10-2" x="0" y="130" width="351.335" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#003b4a"/>
+      <stop offset="1" stop-color="#00a0af"/>
+    </linearGradient>
+    <filter id="Rectangle_10-3" x="354.793" y="0" width="350.18" height="126.919" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="1" stop-color="#76777a"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4433" data-name="Group 4433" transform="translate(-32 -2364)">
+    <g id="Group_45" data-name="Group 45" transform="translate(41 2370)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_10)">
+        <rect id="Rectangle_10-4" data-name="Rectangle 10" width="333.335" height="108.919" transform="translate(9 6)" fill="#fff"/>
+      </g>
+      <g id="Group_11" data-name="Group 11" transform="translate(15.08 79.524)">
+        <text id="_0_003A5D_rgb_0_58_93_-_100_0071CE_rgb_0_113_206_" data-name="0% #003A5D rgb(0, 58, 93) - 100% #0071CE rgb(0, 113, 206) " transform="translate(0 11)" fill="#333" font-size="11" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">0% #003A5D rgb(0, 58, 93) - 100% #0071CE rgb(0, 113, 206) </tspan></text>
+      </g>
+      <g id="Group_33" data-name="Group 33" transform="translate(15.08 61.524)">
+        <text id="Attends_Gradient" data-name="Attends Gradient" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Attends Gradient</tspan></text>
+      </g>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="333.218" height="50" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_47" data-name="Group 47" transform="translate(41 2500)">
+      <g transform="matrix(1, 0, 0, 1, -9, -136)" filter="url(#Rectangle_10-2)">
+        <rect id="Rectangle_10-5" data-name="Rectangle 10" width="333.335" height="108.919" transform="translate(9 136)" fill="#fff"/>
+      </g>
+      <g id="Group_11-2" data-name="Group 11" transform="translate(15.08 79.524)">
+        <text id="_0_003B4A_rgb_0_59_74_-_100_00A0AF_rgb_0_160_175_" data-name="0% #003B4A rgb(0, 59, 74) - 100% #00A0AF rgb(0, 160, 175) " transform="translate(0 11)" fill="#333" font-size="11" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">0% #003B4A rgb(0, 59, 74) - 100% #00A0AF rgb(0, 160, 175) </tspan></text>
+      </g>
+      <g id="Group_33-2" data-name="Group 33" transform="translate(15.08 61.524)">
+        <text id="Teal_Gradient" data-name="Teal Gradient" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Teal Gradient</tspan></text>
+      </g>
+      <rect id="Rectangle_3-2" data-name="Rectangle 3" width="333.218" height="50" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Group_46" data-name="Group 46" transform="translate(395.793 2370)">
+      <g transform="matrix(1, 0, 0, 1, -363.79, -6)" filter="url(#Rectangle_10-3)">
+        <rect id="Rectangle_10-6" data-name="Rectangle 10" width="332.18" height="108.919" transform="translate(363.79 6)" fill="#fff"/>
+      </g>
+      <g id="Group_11-3" data-name="Group 11" transform="translate(15.08 79.524)">
+        <text id="_0_333333_rgb_51_51_51_-_100_4A4A4A_rgb_118_119_122_" data-name="0% #333333 rgb(51, 51, 51) - 100% #4A4A4A rgb(118, 119, 122) " transform="translate(0 11)" fill="#333" font-size="11" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">0% #333333 rgb(51, 51, 51) - 100% #4A4A4A rgb(118, 119, 122) </tspan></text>
+      </g>
+      <g id="Group_33-3" data-name="Group 33" transform="translate(15.08 61.524)">
+        <text id="Neutral_Gradient" data-name="Neutral Gradient" transform="translate(0 14)" fill="#333" font-size="14" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Neutral Gradient</tspan></text>
+      </g>
+      <rect id="Rectangle_3-3" data-name="Rectangle 3" width="332.063" height="50" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

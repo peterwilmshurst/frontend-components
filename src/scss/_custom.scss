@@ -114,6 +114,55 @@ a {
     }
 }
 
+.typography-example {
+    h1 {
+       font-size: 2.875rem;
+       font-weight: bold;
+       line-height: 3rem;
+    }
+    h2 {
+        font-size: 2.25rem;
+        font-weight: bold;
+        line-height: 2.25rem;
+        background: none;
+        color: $black;
+        padding:0;
+    }
+    h3 {
+        font-size: 1.875rem;
+        font-weight: bold;
+        line-height: 1.875rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+    .form-label {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    .body-text {
+        font-size: 1rem;
+        font-weight: regular;
+        line-height: 1.5rem;
+    }
+    .small-paragraph {
+        font-size: 0.875rem;
+        line-height: 1rem;
+    }
+    .hint-info {
+        font-size: 0.875rem;
+        font-style: italic;
+        line-height: 1rem;
+    }
+    .small-hint-info {
+        font-size: 0.75rem;
+        font-style: italic;
+        line-height: 1rem;
+    }
+}
+
 .page-nav,
 .page-content {
     padding-top: 2rem;
