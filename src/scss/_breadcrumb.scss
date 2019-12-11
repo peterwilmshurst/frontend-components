@@ -29,11 +29,21 @@ Version 2019.1.0
             top: -3px;
         }
 
+        .dcoe--link {
+            color: $brand-primary-dark;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+                color:$brand-primary-light;
+            }
+        }
+
         &--current {
             display: inline;
 
             .dcoe--link {
                 color: $disabled;
+                text-decoration: none;
 
                 &:hover {
                     text-decoration: none;

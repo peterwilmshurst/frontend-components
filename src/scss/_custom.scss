@@ -471,7 +471,7 @@ header {
 .dcoe-home {
     background-image: url('../img/dcoe/digital-center-of-excellence-mobile.jpg');
     background-image: -webkit-image-set(url(../img/dcoe/digital-center-of-excellence-mobile.jpg) 1x,
-            url(../img/dcoe/digital-center-of-excellence@2x.jpg) 2x);
+            url(../img/dcoe/digital-center-of-excellence-mobile@2x.jpg) 2x);
 
     @include media-breakpoint-up(sm) {
         background-image: url('../img/dcoe/digital-center-of-excellence-tablet.jpg');
@@ -481,7 +481,26 @@ header {
 
     @include media-breakpoint-up(md) {
         background-image: url('../img/dcoe/digital-center-of-excellence-desktop.jpg');
-        background-image: -webkit-image-set(url(../img/dcoe/digital-center-of-excellence.jpg) 1x,
-                url(../img/dcoe/digital-center-of-excellence@2x.jpg) 2x);
+        background-image: -webkit-image-set(url(../img/dcoe/digital-center-of-excellence-desktop.jpg) 1x,
+                url(../img/dcoe/digital-center-of-excellence-desktop@2x.jpg) 2x);
+    }
+}
+
+
+.dcoe-web-components {
+    background-image: url('../img/dcoe/web-components-mobile.jpg');
+    background-image: -webkit-image-set(url(../img/dcoe/web-components-mobile.jpg) 1x,
+            url(../img/dcoe/web-components-mobile@2x.jpg) 2x);
+
+    @include media-breakpoint-up(sm) {
+        background-image: url('../img/dcoe/web-components-tablet.jpg');
+        background-image: -webkit-image-set(url(../img/dcoe/web-components-tablet.jpg) 1x,
+                url(../img/dcoe/web-components-tablet@2x.jpg) 2x);
+    }
+
+    @include media-breakpoint-up(md) {
+        background-image: url('../img/dcoe/web-components-desktop.jpg');
+        background-image: -webkit-image-set(url(../img/dcoe/web-components-desktop.jpg) 1x,
+                url(../img/dcoe/web-components-desktop@2x.jpg) 2x);
     }
 }
