@@ -14,19 +14,20 @@
 </head>
 
 <body class="header-show">
-     <header>
+    <header>
         <div class="container-fluid">
             <div class="row">
 
                 <div class="col-6 col-md-2 offset-md-1 d-flex align-items-center">
-                    <a class="dcoe-logo" href="/"><img src="./img/dcoe-logo-w.svg" alt="Digital Center of Excellence" height="64px"></a>
+                    <a class="dcoe-logo" href="/"><img src="./img/dcoe-logo-w.svg" alt="Digital Center of Excellence"
+                            height="64px"></a>
                 </div>
 
                 <div class="col-6 col-md-8 d-flex align-items-center">
                     <nav class="header-nav">
-                            <a href="#" id="hamburger">
-                                    <i class="fas fa-bars"></i>
-                                </a>
+                        <a href="#" id="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </a>
                         <ul id="menu">
                             <li><a href="./layouts-and-architecture.html">Layouts &amp; Architecture</a></li>
                             <li><a href="./content-and-visuals.html">Content &amp; Visuals</a></li>
@@ -54,30 +55,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-3">
-                        <ul class="page-nav sticky">
-                                <li><a href="./breadcrumb.html">Breadcrumb</a></li>
-                                <li><a href="./banner.html">Banner</a></li>
-                                <li><a href="./carousel.html">Carousel</a></li>
-                                <li><a href="./card.html">Card</a></li>
-                                <li><a href="./embed.html">Embed</a></li>
-                                <li><a href="./form.html">Form</a></li>
-                                <li><a href="./list.html">List</a></li>
-                                <li><a href="./featured-list.html">Featured List</a></li>
-                                <li><a href="./footer-simple.html">Simple Footer</a></li>
-                                <li><a href="./footer-full.html">Full Footer</a></li>
-                                <li><a href="./modal.html">Modal</a></li>
-                                <li><a href="./button.html">Button</a></li>
-                                <li><a href="./link.html">Link</a></li>
-                                <li><a href="./table.html">Table</a></li>
-                            </ul>
+                    <ul class="page-nav sticky">
+                        <li><a href="./breadcrumb.html">Breadcrumb</a></li>
+                        <li><a href="./banner.html">Banner</a></li>
+                        <li><a href="./carousel.html">Carousel</a></li>
+                        <li><a href="./card.html">Card</a></li>
+                        <li><a href="./embed.html">Embed</a></li>
+                        <li><a href="./form.html">Form</a></li>
+                        <li><a href="./list.html">List</a></li>
+                        <li><a href="./featured-list.html">Featured List</a></li>
+                        <li><a href="./footer-simple.html">Simple Footer</a></li>
+                        <li><a href="./footer-full.html">Full Footer</a></li>
+                        <li><a href="./modal.html">Modal</a></li>
+                        <li><a href="./button.html">Button</a></li>
+                        <li><a href="./link.html">Link</a></li>
+                        <li><a href="./table.html">Table</a></li>
+                    </ul>
                 </div>
 
                 <div class="col-9 page-content">
 
                     <h1>Button</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa asperiores recusandae dicta
-                        consequuntur laudantium ullam, doloremque tempore, sed eligendi, id voluptatum dolore. Quae
-                        officiis magnam asperiores! Est, vero asperiores?</p>
+
 
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
@@ -98,9 +97,89 @@
                         <div class="tab-pane fade show active" id="code" role="tabpanel" aria-labelledby="code-tab">
 
 
+                            <div class="component-example">
+                                <div class="col-12">
+                                    <h5>Buttons</h5>
+                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <button type="button" class="btn btn-secondary">Secondary</button>
+                                    <button type="button" class="btn btn-ghost">Ghost</button>
+                                    <button type="button" class="btn btn-danger">Danger</button>
+                                    <button type="button" class="btn btn-success">Success</button>
+                                </div>
+
+                                <div class="col-12">
+                                    <h5>Buttons with Icons</h5>
+                                    <button type="button" class="btn btn-primary">Primary with icon<i
+                                            class="fas fa-file-download" aria-hidden="true"></i></button>
+                                    <button type="button" class="btn btn-secondary">Secondary with icon<i
+                                            class="fas fa-file-download" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="usage" role="tabpanel" aria-labelledby="usage-tab">Usage</div>
-                        <div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="style-tab">Style</div>
+                        <div class="tab-pane fade" id="usage" role="tabpanel" aria-labelledby="usage-tab">
+                            <p>Buttons express what action will occur when the user clicks or touches it. Buttons are
+                                used to initialize an action, either in the background or foreground of an experience.
+                            </p>
+
+                            <p>Buttons are used primarily on action items. Some examples include Add, Save, Delete, and
+                                Sign up. Each page can have one or two primary buttons. Any remaining calls-to-action
+                                should be represented as secondary buttons.</p>
+
+                            <p>Do not use buttons as navigational elements. Instead, use links when the desired action
+                                is to take the user to a new page.</p>
+                        </div>
+                        <div class="tab-pane fade" id="style" role="tabpanel" aria-labelledby="style-tab">
+
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th width="50%" scope="col">Class</th>
+                                        <th width="50%" scope="col">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>.btn-primary</td>
+                                        <td>Light background colour behind text block</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.btn-secondary</td>
+                                        <td>Dark background colour behind text block</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.btn-ghost</td>
+                                        <td>Dark gradient background colour behind text block</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.btn-danger</td>
+                                        <td>Dark gradient background colour behind text block</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.btn-success</td>
+                                        <td>Dark gradient background colour behind text block</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th width="100%" scope="col">Dependencies</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>/bootstrap/scss/buttons.scss</td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>_buttons.scss</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
