@@ -294,10 +294,7 @@
                     <h2 id="iconography">5. Iconograpy</h2>
 
                     <p>Icons are visual symbols used to represent ideas, objects, or actions. They communicate messages
-                        at a
-                        glance, afford interactivity, and draw attention to important information.</p>
-
-                    <h1>STILL NEED TO DO THIS SECTION ... FROM HERE</h1>
+                        at a glance, afford interactivity, and draw attention to important information.</p>
 
                     <h3>Usage for designers</h3>
                     <p>The UI icons that appear within Attends components are generally 16px squares, however icons
@@ -306,9 +303,43 @@
                         a powerful vector format that allows multiple resizing without losing quality nor
                         resolution.</p>
 
+                    <img src="./img/dcoe/icons-usage-for-designers.svg" alt="Responsive Icons" class="img-fluid">
+                    <p><i>Icons with 16px, 20px and 24px are optimized to feel balanced when paired with 14pt, 16pt and
+                            20pt Attends approved digital font Source Sans. Use 32px and 36px when larger icons are
+                            needed.</i></p>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/icons-correct.svg" alt="Do use the correct icon size with Source Sans"
+                                class="img-fluid">
+                            <p><i>Do use the correct icon size with Source Sans</i></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/icons-incorrect.svg" alt="Don’t alter the icon-text size ratio"
+                                class="img-fluid">
+                            <p><i>Don’t alter the icon-text size ratio</i></p>
+                        </div>
+
+
+                    </div>
+
                     <h4>Touch Targets</h4>
                     <p>All touch targets for interactive icons need to be 42px or larger. Developers can add padding
                         to a touch target with CSS to meet the 42px requirement.</p>
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/icons-touch-targets.svg"
+                                alt="The menu button that is also a touch target may have a 20px x 20px icon centered in a 44px x 44px button."
+                                class="img-fluid">
+                            <p><i>The menu button that is also a touch target may have a 20px x 20px icon centered in a
+                                    44px x 44px button.</i></p>
+
+
+
+
+                        </div>
+                    </div>
 
                     <h4>Color</h4>
 
@@ -317,10 +348,51 @@
                         icon’s action which should always be to help guide a user. It’s also important to note that
                         Attends icons themselves do not have interaction states, only their backgrounds do.</p>
 
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/icons-colors-correct.svg"
+                                alt="Do match your icon color with your text color when pairing them" class="img-fluid">
+                            <p><i>Do match your icon color with your text color when pairing them.</i></p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/icons-colors-correct-2.svg"
+                                alt="Do use icon's double color in consistency with your text color when pairing them"
+                                class="img-fluid">
+                            <p><i>Do use icon's double color in consistency with your text color when pairing them.</i>
+                            </p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/icons-colors-incorrect.svg"
+                                alt="Don’t use different colors for text and icons" class="img-fluid">
+                            <p><i>Don’t use different colors for text and icons.</i></p>
+                        </div>
+                    </div>
+
+
+
+
                     <h4>Alignment</h4>
                     <p>When used next to text, icons should be center-aligned.</p>
 
-                    <h1>... TO HERE</h1>
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/icons-alignment-correct.svg"
+                                alt="Do center-align icons when they’re next to text" class="img-fluid">
+                            <p><i>Do center-align icons when they’re next to text.</i></p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <img src="./img/dcoe/icons-alignment-incorrect.svg"
+                                alt="Don’t baseline-align icons to the text" class="img-fluid">
+                            <p><i>Don’t baseline-align icons to the text.</i>
+                            </p>
+                        </div>
+                    </div>
 
                     <h2 id="animation">6. Animation</h2>
                     <h3>Animation explained</h3>
@@ -335,6 +407,17 @@
 
                     <h3>Animation Curve</h3>
 
+                    <div class="row" style="margin-top:2rem; margin-bottom: 2rem;">
+                        <div class="col-md-6">
+                            <img src="./img/dcoe/animation-curve.svg"
+                                alt="CSS definition for web and responsive devices" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <p>CSS definition for web and responsive devices
+                                    transition-timing-function: cubic-bezier(0.75, 0.02, 0.5, 1);</p>
+                        </div>
+                    </div>
+
                     <h3>Examples</h3>
                     <p>CSS animations make a website visually attractive and enhance the user experience. They may
                         include
@@ -348,26 +431,60 @@
                         follows a series of hover effects for designers and developers to choose from based on their own
                         needs.</p>
 
-                    <h3>Direction of Movement</h3>
-                    <img src="./img/dcoe/direction-of-movement.jpg" alt="Direction of movement">
-                    <p>Elements are moved either horizontally or vertically but not at an angle.</p>
+                        <div class="row" style="margin-top:2rem; margin-bottom: 2rem;">
 
-                    <h3>Scale</h3>
-                    <p>Transformation into a different state is controlled by means of scaling. Scaling can be combined
-                        with
-                        other animation parameters, such as a movement. In some cases when scaling goes beyond the
-                        element’s
-                        frame size, the scaled object is masked within
-                        the frame of the element.</p>
+                        <div class="col-md-6">
+                            <h3>Direction of Movement</h3>
 
-                    <h3>Opacity</h3>
-                    <p>The showing and hiding of elements is controlled by means of opacity. Change in opacity can be
-                        combined with other animation parameters, such as a movement, in order to create a more dynamic
-                        experience.</p>
+                            <p>Elements are moved either horizontally or vertically but not at an angle.</p>
+                        </div>
+                        <div class="col-md-6"><img src="./img/dcoe/movement.svg" alt="Direction of movement"
+                                class="img-fluid"></div>
+                    </div>
 
-                    <h3>Rotation</h3>
-                    <p>Rotation is limited to small elements and is not combined with other animation parameters.</p>
+                    <div class="row" style="margin-top:2rem; margin-bottom: 2rem;">
+                    <div class="col-md-6">
+                            <h3>Scale</h3>
+                            <p>Transformation into a different state is controlled by means of scaling. Scaling can be combined
+                                with
+                                other animation parameters, such as a movement. In some cases when scaling goes beyond the
+                                element’s
+                                frame size, the scaled object is masked within
+                                the frame of the element.</p>        
+                        </div>
+                        <div class="col-md-6"> <img src="./img/dcoe/scale.svg" alt="Scale"
+                                class="img-fluid"></div>
+                    </div>
+              
+                    <div class="row" style="margin-top:2rem; margin-bottom: 2rem;">
+                            <div class="col-md-6">
+                                    <h3>Opacity</h3>
+                                    <p>The showing and hiding of elements is controlled by means of opacity. Change in opacity can be combined with other animation parameters, such as a movement, in order to create a more dynamic experience.</p>        
+                                </div>
+                                <div class="col-md-6"> <img src="./img/dcoe/opacity.svg" alt="Opacity"
+                                        class="img-fluid"></div>
+                            </div>
 
+                            <div class="row" style="margin-top:2rem; margin-bottom: 2rem;">
+                                    <div class="col-md-6">
+                                            <h3>Rotation</h3>
+                                            <p>Rotation is limited to small elements and is not combined with other animation parameters.</p>        
+                                        </div>
+                                        <div class="col-md-6"> <img src="./img/dcoe/rotation.svg" alt="Rotation"
+                                                class="img-fluid"></div>
+                                    </div>
+
+                                    <div class="row" style="margin-top:2rem; margin-bottom: 2rem;">
+                                            <div class="col-md-8 offset-2">
+                                                    <img src="./img/dcoe/transitions.svg" alt="Transitions"
+                                                    class="img-fluid">
+
+                                            </div>
+                                    
+                                    </div>
+
+                  
+                 
                     <h3>Timing</h3>
                     <p>The duration of an animation depends on the size of the elements and the distance it covers. If
                         there
