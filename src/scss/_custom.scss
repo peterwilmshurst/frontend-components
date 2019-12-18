@@ -7,24 +7,6 @@
                               
 */
 
-// body {
-//     &.breadcrumbs {
-//         ul {
-//             li {
-//                 a {
-//                     color: $brand-primary-dark;
-
-//                     &:hover {
-//                         color: $brand-primary-light;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
-
-
-
 #hamburger {
     display: none;
     visibility: hidden;
@@ -89,7 +71,6 @@ a {
     }
 }
 
-
 @include media-breakpoint-down(lg) {
     .dcoe-logo {
         padding-top: 1rem;
@@ -116,46 +97,54 @@ a {
 
 .typography-example {
     h1 {
-       font-size: 2.875rem;
-       font-weight: bold;
-       line-height: 3rem;
+        font-size: 2.875rem;
+        font-weight: bold;
+        line-height: 3rem;
     }
+
     h2 {
         font-size: 2.25rem;
         font-weight: bold;
         line-height: 2.25rem;
         background: none;
         color: $black;
-        padding:0;
+        padding: 0;
     }
+
     h3 {
         font-size: 1.875rem;
         font-weight: bold;
         line-height: 1.875rem;
     }
+
     h4 {
         font-size: 1.5rem;
         font-weight: bold;
         line-height: 2rem;
     }
+
     .form-label {
         font-size: 1rem;
         line-height: 1.25rem;
     }
+
     .body-text {
         font-size: 1rem;
         font-weight: regular;
         line-height: 1.5rem;
     }
+
     .small-paragraph {
         font-size: 0.875rem;
         line-height: 1rem;
     }
+
     .hint-info {
         font-size: 0.875rem;
         font-style: italic;
         line-height: 1rem;
     }
+
     .small-hint-info {
         font-size: 0.75rem;
         font-style: italic;
@@ -196,8 +185,6 @@ a {
 }
 
 .component-example {
-//     padding: 2rem 2rem 2.5rem;
-
     &.center {
         justify-content: center;
         display: flex;
@@ -217,14 +204,6 @@ a {
         border-bottom: none;
     }
 }
-
-// .tab-content {
-
-//     h2,
-//     h3 {
-//         padding: 1rem;
-//     }
-// }
 
 .select-component {
     a {
@@ -324,19 +303,6 @@ header {
     }
 }
 
-// .table {
-
-//     th,
-//     td {
-//         width: 33%;
-//         text-align: center;
-//     }
-
-//     &.table-striped tbody tr:nth-of-type(odd) {
-//         background-color: rgba(97, 159, 66, 0.04);
-//     }
-// }
-
 .content {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -365,7 +331,6 @@ header {
     border-right: 1px solid rgba(0, 0, 0, 0.12);
     bottom: 0;
     overflow-y: auto;
-    // padding: 72px 0 40px;
     position: fixed;
     top: 0;
     transform: translateX(-100%);
@@ -424,9 +389,16 @@ header {
     }
 }
 
-.nav-open .side-nav {
-    transform: translateX(0);
-    transition-duration: 235ms;
+// Resources 
+
+.resources {
+    a {
+        color: $green;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 // Site Banners
