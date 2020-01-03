@@ -40,3 +40,4 @@ maps/
 # Compiled Files #
 ######################
 public/
+package-lock.json
