@@ -1,26 +1,22 @@
-# Initiate
+# Domtar Digital Design System
+**Version 2019.1.0**
 
-Project startup which includes:
+A collection of rules, principles, constraints and best practices, lifted from the brand guidelines and translated into a library of modular web components.
 
-- Node.js,
-- Gulp,
-- Browsersync,
-- Htmlmin,
-- Sass,
-- Autoprefixer,
-- Plumber,
-- Sourcemaps
-- Uglify,
-- Bootstrap
-- Gulp Util,
-- Vinyl FTP.
+## Components 
 
-## How to use:
+- Breadcrumb
+- Banner
+- Carousel
+- Card
+- Embed
+- Form
+- List
+- Featured List
+- Simple Footer
+- Full Footer
+- Modal
+- Button
+- Link
+- Table
 
-- Download, unzip and rename with the name if your project
-- Load Terminal
-- Cd into your project directory
-- Type "npm install" to install the node_modules folder
-- Type "ncu" to see dependency version information (last update date 07/11/18)
-- Type "ncu -a" to update all dependencies to the latest version
-- Type "gulp" to run the default gulpfile action
